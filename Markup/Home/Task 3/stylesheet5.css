@@ -1,10 +1,4 @@
-td {
-   border-bottom: 1px solid gainsboro;
-    padding: 5px;
-}
-table {
-    border-collapse: collapse;
-}
+
 tr:nth-child(2n) {
     background-color: #ddebf7;
 }
