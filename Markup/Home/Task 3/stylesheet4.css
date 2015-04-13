@@ -1,6 +1,6 @@
 /* Ссылки содержащие http и https,
     посещенные ссылки содержащие http и https*/
-:link[href^="http://"],
+:link[href^="http"],
 :link[href^="https://"],
 :visited[href^="http://"],
 :visited[href^="https://"]{
@@ -11,11 +11,13 @@
 :link[href$="google.com"],
 :visited[href$="google.com"] {
     color: #666 ;
-
 }
 
-a[target="_blank"]:after {
-    content:"?";
+a[target="_blank"]:after
+{
+    content: '\21F1';
+    margin-left: 5px;
+    transform: rotate(-270deg);
+    font-family: Cambria, georgia, serif;
     display: inline-block;
-    padding-left: 5px;
 }

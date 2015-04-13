@@ -1,0 +1,14 @@
+td {
+   border-bottom: 1px solid gainsboro;
+    padding: 5px;
+}
+table {
+    border-collapse: collapse;
+}
+tr:nth-child(2n) {
+    background-color: #ddebf7;
+}
+
+td:nth-child(2n+3) {
+    background: #f2f2de;
+}
