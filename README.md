@@ -1,3 +1,3 @@
 # maxim-acm.github.io
 
-<a href="http://goit.com.ua">GOIT </a>- my lessons & homework
+<a href="http://goit.com.ua" target="_blank">GOIT </a>- my lessons & homework
