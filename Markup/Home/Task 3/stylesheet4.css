@@ -1,5 +1,5 @@
 :link[href*="://"],
-:visited[href^="http"] {
+:visited[href*="://"] {
     color:  #f70;
 }
 
