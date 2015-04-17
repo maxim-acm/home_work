@@ -1,21 +1,50 @@
-div a {
+ul.menu {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background: #a64dff;
+    height: 30px;
+    width: 900px;
+}
+
+.menu li a {
     float: left;
-    margin-left: 20px;
+    display: block;
+}
+
+li a {
+    padding: 5px 10px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Impact, Charcoal, sans-serif;
+    color: white;
+
 }
 
-div.right {
+li.right {
     float: right;
+    margin-right: 40px;
 }
 
-div.menu {
-    width: 900px;
-    margin: auto;
+.line {
+    background: #a64dff;
+    margin-right: -10px;
+    margin-left: -10px;
+    box-shadow: 0 0 5px gray;
+}
+
+li.home {
+        margin-left: 40px;
+}
+
+li.active a{
+    background: #efefef;
+    color: gray;
+    height: 20px;
 
 }
 
-div.line {
 
-}
+
+

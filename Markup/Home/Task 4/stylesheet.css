@@ -1,6 +1,6 @@
 ul.menu li {
     display: inline-block;
-    padding: 7px 10px;
+    padding: 5px 10px;
 }
 li.active {
     background: #efefef;
@@ -26,4 +26,3 @@ div.line {
     margin-left: -10px;
     margin-right: -10px;
 }
-
