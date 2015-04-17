@@ -1,7 +1,29 @@
-ul {
-    text-align: center;
+ul.menu li {
+    display: inline-block;
+    padding: 7px 10px;
+}
+li.active {
+    background: #efefef;
+}
+ul.menu li a {
+    text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    text-transform: uppercase;
+    color: white;
 }
 
-li {
-    display: inline-block;
+ul.menu li.active a {
+    color: gray;
 }
+div.navigation {
+    width: 900px;
+    margin: auto;
+    background: #a64dff;
+}
+div.line {
+    background: #a64dff;
+    box-shadow: 0 0 5px gray;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
