@@ -1,0 +1,21 @@
+div a {
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+div.right {
+    float: right;
+}
+
+div.menu {
+    width: 900px;
+    margin: auto;
+
+}
+
+div.line {
+
+}
