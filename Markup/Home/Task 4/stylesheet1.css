@@ -1,0 +1,38 @@
+.menu {
+    width: 900px;
+    margin: auto;
+    background: #a64dff;
+    display: flex; /*выравнивает текст по центральной линии при возможном изменении высоты блока меню*/
+}
+li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+}
+li.active a {
+    color: gray;
+}
+li.active {
+    background: #efefef;
+}
+li:first-of-type {
+    margin-left: 40px;
+}
+
+.line {
+    background: #a64dff;
+    box-shadow: 0 0 5px gray;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
