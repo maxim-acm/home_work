@@ -1,28 +1,26 @@
-ul.menu {
+.menu {
     list-style: none;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
+    padding: 0;
     background: #a64dff;
-    height: 30px;
+    height: 40px;
     width: 900px;
 }
 
-.menu li a {
+li {
     float: left;
-    display: block;
+    padding: 10px 15px;
 }
 
-li a {
-    padding: 5px 10px;
+a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: Impact, Charcoal, sans-serif;
     color: white;
-
 }
 
-li.right {
+li:last-child {
     float: right;
     margin-right: 40px;
 }
@@ -34,15 +32,16 @@ li.right {
     box-shadow: 0 0 5px gray;
 }
 
-li.home {
+li:first-child {
         margin-left: 40px;
 }
 
 li.active a{
-    background: #efefef;
     color: gray;
-    height: 20px;
+}
 
+li.active {
+    background: #efefef;
 }
 
 
