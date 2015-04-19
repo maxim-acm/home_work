@@ -2,14 +2,12 @@
     width: 900px;
     margin: auto;
     background: #a64dff;
-     /**/
-
+    height: 40px;
 }
 
 li {
     display: inline-block;
     padding: 10px 15px;
-
 }
 
 ul {
@@ -23,7 +21,6 @@ a {
     text-transform: uppercase;
     color: white;
     font-size: 16px;
-
 }
 
 li.active a {
