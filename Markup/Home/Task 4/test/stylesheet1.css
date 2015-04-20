@@ -1,8 +1,9 @@
 .menu {
     width: 900px;
+    height: 40px;
     margin: auto;
     background: #a64dff;
-    height: 40px;
+
 }
 
 li {

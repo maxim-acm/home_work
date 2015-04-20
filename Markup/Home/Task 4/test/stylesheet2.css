@@ -32,7 +32,11 @@ li:last-child {
     box-shadow: 0 0 5px gray;
 }
 
+<<<<<<< Updated upstream:Markup/Home/Task 4/test/stylesheet2.css
 li:first-child {
+=======
+li:first-of-type {
+>>>>>>> Stashed changes:Markup/Home/Task 4/stylesheet2.css
         margin-left: 40px;
 }
 
