@@ -1,44 +1,73 @@
-.menu {
+body {
+    background: #cccccc;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container ul li {
+    display: inline-block;
+}
+
+.container {
     width: 900px;
     margin: auto;
     background: #a64dff;
     height: 40px;
 }
 
-li {
-    display: inline-block;
-    padding: 10px 15px;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
+.container ul li a {
+    padding: 0 10px;
     font-family: Impact, Charcoal, sans-serif;
-    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+    height: 40px;
     color: white;
     font-size: 16px;
 }
 
-li.active a {
-    color: gray;
+#uppercase {
+    text-transform: uppercase;
 }
 
-li.active {
+.container ul li a:hover {
     background: #efefef;
+    color: #999999;
 }
 
-li:first-of-type {
-    margin-left: 40px;
+.container ul li:first-child {
+    float: left;
+    margin-left: 30px;
 }
-
 .line {
-    background: #a64dff;
-    box-shadow: 0 0 5px gray;
-    margin-left: -10px;
-    margin-right: -10px;
+    background: #red;
+    box-shadow: 0 0 5px grey;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
+.container_2 .dropdown {
+    position: relative;
+    background: #efefef;
+    display: none;
+    left: -50%;
+    margin: 0;
+}
+
+.container li:hover .dropdown {
+    display: block;
+}
+
+.container_2 {
+    width: 900px;
+    position: absolute;
+    left: 50%;
+}
+
+.container_2 ul li a {
+    color: #999999;
+}
