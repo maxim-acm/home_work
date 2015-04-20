@@ -7,27 +7,25 @@ ul {
 
 .container ul li {
     display: inline-block;
-
 }
 
 .container {
     width: 900px;
     margin: auto;
-    background: #a64dff;
+    background: #1aa4ff;
     height: 40px;
-
 }
 
 .container ul li a {
     padding: 0 10px;
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: 'Oswald', sans-serif;
+
     text-decoration: none;
     line-height: 40px;
     display: block;
     height: 40px;
     color: white;
     font-size: 16px;
-
 }
 
 #uppercase {
@@ -45,7 +43,7 @@ ul {
     margin-left: 50px;
 }
 .line {
-    background: #a64dff;
+    background: #1aa4ff;
     box-shadow: 0 0 5px grey;
     margin-left: -20px;
     margin-right: -20px;
