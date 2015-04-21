@@ -45,8 +45,8 @@ ul {
 .line {
     background: #1aa4ff;
     box-shadow: 0 0 5px grey;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .container_2 .dropdown {
