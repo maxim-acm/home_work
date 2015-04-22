@@ -49,10 +49,12 @@ a {
     margin-right: 5px;
 }
 
-.active {
+
+div.number.border:hover {
     background: #a64dff;
+
 }
 
-.active a {
+div.number.border:hover a{
     color: white;
 }
