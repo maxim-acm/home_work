@@ -1,0 +1,26 @@
+@import url(blocks/stylesheet/stylesheet_center.css);
+@import url(blocks/stylesheet/stylesheet_left.css);
+@import url(blocks/stylesheet/stylesheet_right.css);
+
+
+
+.inner {
+    display: inline-block;
+
+    min-width: 1024px;
+
+}
+
+.holder__right {
+    left: -10px;
+
+
+}
+.holder__left {
+    left: 10px;
+
+}
+
+.holder__middle {
+    z-index: 2;
+}
