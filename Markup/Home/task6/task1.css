@@ -3,22 +3,21 @@
 @import url(blocks/stylesheet/stylesheet_right.css);
 
 
-
-.inner {
-    display: inline-block;
-
+.holder__box {
+    width: 100%;
     min-width: 1024px;
-
+    height: 700px;
+    display: inline-block;
+    position: relative;
 }
+
 
 .holder__right {
-    left: -10px;
-
-
+    left: 600px;
 }
-.holder__left {
-    left: 10px;
 
+.holder__left {
+    left:-600px;
 }
 
 .holder__middle {
