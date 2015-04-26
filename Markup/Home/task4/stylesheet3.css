@@ -24,14 +24,6 @@ a {
     border-radius: 5px;
 }
 
-.number.dots a {
-
-    vertical-align: -5px;
-    color: #666666;
-    margin: auto 10px auto 10px;
-
-
-}
 
 .pager div:first-child {
     margin-right: 10px;
@@ -57,4 +49,9 @@ div.number.border:hover {
 
 div.number.border:hover a{
     color: white;
+}
+span {
+    margin: auto 5px;
+    
+
 }
