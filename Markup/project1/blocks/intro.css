@@ -2,11 +2,13 @@
     width: 100%;
     min-width: 1024px;
     background-image:url("../blocks/picture/intro_pic.jpg");
-    height: 580px;
+    min-height: 565px;
+    height: 100%;
     display: inline-block;
     margin: 0;
     background-size: 100%;
     position: relative;
+
 
 }
 
@@ -19,13 +21,15 @@
     right: 0;
     margin: 160px auto 20px auto;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: bold;
 
 }
 
 span.intro__title-first {
     font-size: 36px;
-    text-transform: capitalize;
+    text-transform: lowercase;
+    font-weight: l;
+
 }
 
 .intro__annotation {
@@ -52,12 +56,12 @@ span.intro__title-first {
     width: 250px;
     height: 58px;
     line-height: 58px;
-    margin: auto;
+    margin: 0 auto 100px auto;
     left: 0;
     right: 0;
     bottom: 0;
     position: absolute;
     text-align: center;
-    border: 2px solid #fff;
-    margin-bottom: 100px;
+    border: 1px solid #fff;
+
 }
