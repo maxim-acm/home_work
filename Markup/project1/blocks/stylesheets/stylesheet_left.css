@@ -122,7 +122,7 @@ body {
 
 .holder__left .holder__table li::before {
     content: '';
-    background: url(../../blocks/image/check.png);
+    background: url("../picture/check.png");
     position: absolute;
     left: 30px;
     top: 5px;
