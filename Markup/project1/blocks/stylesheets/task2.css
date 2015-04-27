@@ -1,0 +1,114 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+
+
+}
+
+.client {
+    min-height: 315px;
+    width: 100%;
+    display: inline-block;
+    background-image: url("../picture/task2.jpg");
+    position: relative;
+}
+
+.client__inner {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #3170a8;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.client__inner  span.title {
+    color: #ff7700;
+    font-weight: normal;
+}
+.client__box_left,
+.client__box_right {
+    display: inline-block;
+    margin-bottom: 74px;
+    position: relative;
+}
+
+
+img.client__box_photo {
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+
+
+}
+
+.card {
+    width: 356px;
+    display: inline-block;
+    background: white;
+    min-height: 100px;
+    position: relative;
+    vertical-align: top;
+}
+
+.client__box_right {
+    margin-left: 30px;
+
+}
+
+.triangle {
+    border-top: 11px solid transparent;
+    border-right: 15px solid white;
+    border-bottom: 11px solid transparent;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    margin-top: -11px;
+    left: -15px;
+}
+p.name {
+    float: left;
+    position: relative;
+    margin: 15px 15px 0 15px;
+    font-size: 13px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #3070a8;
+}
+p.type {
+    float: right;
+    margin: 15px 20px;
+    font-size: 13px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #3070a8;
+
+
+}
+p.name::before {
+    content: ' - ';
+}
+
+
+p.line {
+    border-top: 1px dashed;
+    margin: 40px 15px 0 15px;
+    color: #666666;
+}
+p.comment {
+    margin: 10px 20px 15px 20px;
+    position: relative;
+    font-size: 13px;
+    bottom: 0;
+    font-style: normal;
+    line-height: 20px;
+    color: #666666;
+
+}

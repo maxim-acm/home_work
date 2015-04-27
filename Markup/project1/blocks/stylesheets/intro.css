@@ -1,14 +1,13 @@
 .intro {
     width: 100%;
     min-width: 1024px;
-    background-image:url("../blocks/picture/intro_pic.jpg");
-    min-height: 565px;
+    background-image:url("../picture/intro_pic.jpg");
     height: 100%;
+    min-height: 570px;
     display: inline-block;
     margin: 0;
-    background-size: 100%;
+    background-size: 1440px;
     position: relative;
-
 
 }
 
@@ -19,7 +18,9 @@
     text-align: center;
     left: 0;
     right: 0;
-    margin: 160px auto 20px auto;
+    top: 20%;
+    margin: auto ;
+    position: absolute;
     text-transform: uppercase;
     font-weight: bold;
 
@@ -28,8 +29,12 @@
 span.intro__title-first {
     font-size: 36px;
     text-transform: lowercase;
-    font-weight: l;
+    font-weight: normal;
 
+}
+
+span.first_letter {
+    text-transform: uppercase;
 }
 
 .intro__annotation {
@@ -42,13 +47,16 @@ span.intro__title-first {
     font-weight: normal;
     font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
     margin: auto;
+    top: 55%;
     left: 0;
     right: 0;
     position: absolute;
 
+
 }
 
 .intro__button {
+    display: inline-block;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -56,12 +64,13 @@ span.intro__title-first {
     width: 250px;
     height: 58px;
     line-height: 58px;
-    margin: 0 auto 100px auto;
-    left: 0;
+    margin:  auto;
     right: 0;
-    bottom: 0;
+    left: 0;
+    bottom: 20%;
     position: absolute;
     text-align: center;
     border: 1px solid #fff;
+
 
 }
