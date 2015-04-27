@@ -1,4 +1,63 @@
 .intro {
     width: 100%;
-    background: red;
+    min-width: 1024px;
+    background-image:url("../blocks/picture/intro_pic.jpg");
+    height: 580px;
+    display: inline-block;
+    margin: 0;
+    background-size: 100%;
+    position: relative;
+
+}
+
+.intro__title {
+    color: #fff;
+    font-size: 48px;
+    width: 800px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 160px auto 20px auto;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+
+span.intro__title-first {
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.intro__annotation {
+    display: inline-block;
+    color: #fff;
+    width: 600px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+
+.intro__button {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    width: 250px;
+    height: 58px;
+    line-height: 58px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-bottom: 100px;
 }

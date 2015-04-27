@@ -1,4 +1,35 @@
 .header {
-    width: 1024px;
-    margin: 45px auto 0;
+    min-width: 1024px;
+    width: 100%;
+    height: 116px;
+    background: #fff;
+    display: flex;
 }
+.header__inner {
+    width: 1024px;
+    height: 116px;
+    margin: auto;
+    position: relative;
+}
+ul.menu__list {
+
+    margin: 0;
+}
+
+div.logo h1{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+    color: #3070a8;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.first_word {
+    color: #ee8129;
+    text-transform: capitalize;
+    ;
+}
+
+
