@@ -8,7 +8,8 @@ body {
     min-height: 315px;
     width: 100%;
     display: inline-block;
-    background-image: url("../picture/task2.jpg");
+    background-image: url("task2.jpg");
+    background-size: cover;
     position: relative;
 }
 

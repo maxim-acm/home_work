@@ -4,12 +4,11 @@ body {
     color: #35495a;
 }
 
-.holder__middle {
+.holder__right {
     width: 300px;
-    height: 460px;
-    border: 4px solid #ee8129;
+    height: 440px;
+    border: 1px solid #e8eaec;
     border-radius: 5px;
-    box-shadow: 0 0 6px #999999;
     position: absolute;
     display: inline-block;
     background: white;
@@ -21,29 +20,30 @@ body {
 
 }
 
-.holder__title {
-    background: #ee8129;
-    height: 74px;
+.holder__right .holder__title {
+    background: #1cb79a;
+    height: 63px;
     width: 100%;
     display: inline-block;
+    border-radius: 0 5px 0 0;
 }
 
-.holder__title h1 {
+.holder__right .holder__title h1 {
     font-size: 24px;
     text-align: center;
     color: white;
     margin: 0;
-    line-height: 77px;
+    line-height: 63px;
 }
 
-.holder__item {
+.holder__right .holder__item {
     display: inline-block;
     width: 100%;
     text-align: center;
     height: 163px;
 }
 
-.holder__item .text {
+.holder__right .holder__item .text {
     font-size: 24px;
     text-align: center;
     text-transform: uppercase;
@@ -52,27 +52,27 @@ body {
     font-weight: normal;
 }
 
-.holder__item .price {
+.holder__right .holder__item .price {
     font-size: 72px;
     text-align: center;
     font-weight: bold;
 }
-.holder__item .price sup {
+.holder__right .holder__item .price sup {
     font-size: 18px;
     vertical-align: 40px;
 }
-.holder__item .price sub {
+.holder__right .holder__item .price sub {
     font-size: 18px;
 }
 
-ul.holder__table {
+.holder__right ul.holder__table {
     list-style: none;
     margin: 0 auto;
     padding: 0 ;
 
 }
 
-.holder__table li {
+.holder__right .holder__table li {
 
     width: 87%;
     background: #f5f5f6;
@@ -83,14 +83,14 @@ ul.holder__table {
     position: relative;
 }
 
-.holder__table li:nth-child(2n+1) {
+.holder__right .holder__table li:nth-child(2n+1) {
     background: #e8f2fb;
 }
-span {
+.holder__right span {
     display: inline-block;
     margin: 8px 0 8px 60px;
 }
-.holder__button {
+.holder__right .holder__button {
     display: inline-block;
     height: 90px;
     width: 100%;
@@ -98,10 +98,10 @@ span {
 
 }
 
-a.button {
+.holder__right a.button {
     display: inline-block;
     color: white;
-    background: #ee8129;
+    background: #3371a6;
     text-decoration: none;
     text-transform: uppercase;
     width: 85%;
@@ -110,19 +110,19 @@ a.button {
     line-height: 40px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 -3px #b3560b inset;
+    box-shadow: 0 -3px #16436a inset;
     left: 0;
     right: 0;
-    margin: 18px auto 30px auto;
+    margin: 18px auto 20px auto;
 }
 
-.holder__button a.button:hover {
-    background: #b3560b;
+.holder__right .holder__button a.button:hover {
+    background: #16436a;
 }
 
-.holder__table li::before {
+.holder__right .holder__table li::before {
     content: '';
-    background: url("../picture/check.png");
+    background: url("check.png");
     position: absolute;
     left: 30px;
     top: 5px;

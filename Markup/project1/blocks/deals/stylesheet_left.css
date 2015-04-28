@@ -4,7 +4,7 @@ body {
     color: #35495a;
 }
 
-.holder__right {
+.holder__left {
     width: 300px;
     height: 440px;
     border: 1px solid #e8eaec;
@@ -20,15 +20,15 @@ body {
 
 }
 
-.holder__right .holder__title {
-    background: #1cb79a;
+.holder__left .holder__title {
+    background: #37c2d3;
     height: 63px;
     width: 100%;
     display: inline-block;
-    border-radius: 0 5px 0 0;
+    border-radius: 5px 0 0 0;
 }
 
-.holder__right .holder__title h1 {
+.holder__left .holder__title h1 {
     font-size: 24px;
     text-align: center;
     color: white;
@@ -36,14 +36,14 @@ body {
     line-height: 63px;
 }
 
-.holder__right .holder__item {
+.holder__left .holder__item {
     display: inline-block;
     width: 100%;
     text-align: center;
     height: 163px;
 }
 
-.holder__right .holder__item .text {
+.holder__left .holder__item .text {
     font-size: 24px;
     text-align: center;
     text-transform: uppercase;
@@ -52,27 +52,27 @@ body {
     font-weight: normal;
 }
 
-.holder__right .holder__item .price {
+.holder__left .holder__item .price {
     font-size: 72px;
     text-align: center;
     font-weight: bold;
 }
-.holder__right .holder__item .price sup {
+.holder__left .holder__item .price sup {
     font-size: 18px;
     vertical-align: 40px;
 }
-.holder__right .holder__item .price sub {
+.holder__left .holder__item .price sub {
     font-size: 18px;
 }
 
-.holder__right ul.holder__table {
+.holder__left ul.holder__table {
     list-style: none;
     margin: 0 auto;
     padding: 0 ;
 
 }
 
-.holder__right .holder__table li {
+.holder__left .holder__table li {
 
     width: 87%;
     background: #f5f5f6;
@@ -83,14 +83,14 @@ body {
     position: relative;
 }
 
-.holder__right .holder__table li:nth-child(2n+1) {
+.holder__left .holder__table li:nth-child(2n+1) {
     background: #e8f2fb;
 }
-.holder__right span {
+.holder__left span {
     display: inline-block;
     margin: 8px 0 8px 60px;
 }
-.holder__right .holder__button {
+.holder__left .holder__button {
     display: inline-block;
     height: 90px;
     width: 100%;
@@ -98,7 +98,7 @@ body {
 
 }
 
-.holder__right a.button {
+.holder__left a.button {
     display: inline-block;
     color: white;
     background: #3371a6;
@@ -116,13 +116,13 @@ body {
     margin: 18px auto 20px auto;
 }
 
-.holder__right .holder__button a.button:hover {
+.holder__left .holder__button a.button:hover {
     background: #16436a;
 }
 
-.holder__right .holder__table li::before {
+.holder__left .holder__table li::before {
     content: '';
-    background: url("../picture/check.png");
+    background: url("check.png");
     position: absolute;
     left: 30px;
     top: 5px;
