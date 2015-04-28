@@ -5,7 +5,7 @@ body {
 }
 
 .holder {
-    width: 300px;
+    width: 250px;
     height: 460px;
     border: 4px solid #ee8129;
     border-radius: 5px;
@@ -16,7 +16,7 @@ body {
 
 .holder__title {
     background: #ee8129;
-    height: 77px;
+    height: 17%;
     width: 100%;
     display: inline-block;
 }
@@ -33,7 +33,7 @@ body {
     display: inline-block;
     width: 100%;
     text-align: center;
-    height: 163px;
+    height: 35%;
 }
 
 .holder__item .text {
@@ -85,7 +85,7 @@ span {
 }
 .holder__button {
     display: inline-block;
-    height: 90px;
+    height: 20%;
     width: 100%;
     position: relative;
 
