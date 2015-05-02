@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer {
+
+
+    width: 100%;
+    min-height: 575px;
+    background-image: url("contacts_background.jpg");
+    background-size: cover;
+}
+
+.footer__inner {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 1024px;
+
+    margin: auto;
+    padding-bottom: 50px;
+
+}
+
+.footer h2 {
+    max-width: 750px;
+    color: #ee8129;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 48px;
+    padding-top: 60px;
+    font-family: 'Droid Sans', sans-serif;
+
+
+}
+
+.footer p {
+    color: #fff;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Droid Sans', sans-serif;
+
+}
+
+.footer ul {
+
+    padding-left: 20px;
+    color: #9d9d9d;
+
+}
+
+.footer li {
+    max-width: 610px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 14px;
+
+}
+
+li:before {
+    content: "• ";
+    font-size: 14px;
+    color: red; /* or whatever color you prefer */
+}
