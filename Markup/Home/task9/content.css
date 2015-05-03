@@ -12,7 +12,7 @@ body {
 
     width: 100%;
     min-height: 575px;
-    background-image: url("contacts_background.jpg");
+    background-image: url("content_background.jpg");
     background-size: cover;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .footer h2 {
-    max-width: 750px;
+    max-width: 720px;
     color: #ee8129;
     text-transform: uppercase;
     font-size: 26px;
@@ -52,6 +52,8 @@ body {
 
     padding-left: 20px;
     color: #9d9d9d;
+    list-style: none;
+    position: relative;
 
 }
 
@@ -65,8 +67,19 @@ body {
 
 }
 
-li:before {
-    content: "• ";
-    font-size: 14px;
-    color: red; /* or whatever color you prefer */
+li:nth-child(2n+1):before {
+    content: url("circle.png");
+    position: absolute;
+    left: 0;
+
+}
+li:nth-child(2n):before {
+    content: url("circle_blue.png");
+    position: absolute;
+    left: 0;
+
+}
+
+li:nth-child(2n) {
+    color: #3070a8;
 }
