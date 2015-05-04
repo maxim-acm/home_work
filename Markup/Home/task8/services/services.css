@@ -5,6 +5,13 @@ body {
     color: #999;
 }
 
+.services {
+    position: relative;
+    width: 100%;
+    min-height: 565px;
+    display: block;
+}
+
 .services__inner {
     max-width: 1024px;
     width: 100%;

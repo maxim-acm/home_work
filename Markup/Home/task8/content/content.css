@@ -9,11 +9,12 @@ body {
 
 .footer {
 
-
+    display: block;
     width: 100%;
     min-height: 575px;
     background-image: url("content_background.jpg");
     background-size: cover;
+    position: relative;
 }
 
 .footer__inner {
@@ -67,19 +68,19 @@ body {
 
 }
 
-li:nth-child(2n+1):before {
+.footer li:nth-child(2n+1):before {
     content: url("circle.png");
     position: absolute;
     left: 0;
 
 }
-li:nth-child(2n):before {
+.footer li:nth-child(2n):before {
     content: url("circle_blue.png");
     position: absolute;
     left: 0;
 
 }
 
-li:nth-child(2n) {
+.footer li:nth-child(2n) {
     color: #3070a8;
 }
