@@ -1,17 +1,19 @@
 @import url("blocks/header/header.css");
 @import url("blocks/menu/menu.css");
 @import url("blocks/intro/intro.css");
-@import url("blocks/testimonials/task2.css");
+@import url("blocks/testimonials/testimonials.css");
 
-@import url("blocks/holder/stylesheet_left.css");
-@import url("blocks/holder/stylesheet_center.css");
-@import url("blocks/holder/stylesheet_right.css");
+@import url("blocks/price/stylesheet_left.css");
+@import url("blocks/price/stylesheet_center.css");
+@import url("blocks/price/stylesheet_right.css");
 
 /* stylesheets from Home folder */
 
 @import "../Home/task8/content/content.css";
 @import "../Home/task8/services/services.css";
+@import "../Home/task9/footer/footer.css";
 
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 
 body {
     font-family: "Trebuchet MS", sans-serif;

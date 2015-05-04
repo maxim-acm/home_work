@@ -7,17 +7,17 @@ body {
 .client {
     min-height: 315px;
     width: 100%;
-    display: inline-block;
-    background-image: url("task2.jpg");
+    background-image: url("testimonials_background.jpg");
     background-size: cover;
     position: relative;
+    display: block;
 }
 
 .client__inner {
     width: 1024px;
     margin: auto;
     position: relative;
-    
+
 }
 
 h1 {

@@ -5,37 +5,38 @@
     background-size: cover;
     height: 100%;
     min-height: 570px;
-    display: inline-block;
     margin: 0;
     position: relative;
+    display: block;
 
 }
 
-.intro__title {
+.intro h2 {
     color: #fff;
-    font-size: 48px;
-    width: 800px;
+    width: 725px;
     text-align: center;
     left: 0;
     right: 0;
     top: 20%;
     margin: auto ;
     position: absolute;
-    text-transform: uppercase;
-    font-weight: bold;
-
-}
-
-span.intro__title-first {
-    font-size: 36px;
-    text-transform: lowercase;
     font-weight: normal;
-    margin-right: 140px;
+    font-family: 'Mariad Pro', sans-serif;
+    font-size: 36px;
+
 
 }
 
-span.first_letter {
+.lower-case {
+    text-align: center;
+    text-transform: lowercase;
+
+
+}
+
+.upper-case {
     text-transform: uppercase;
+    font-size: 48px;
 }
 
 .intro__annotation {
@@ -52,7 +53,6 @@ span.first_letter {
     left: 0;
     right: 0;
     position: absolute;
-
 
 }
 
@@ -72,6 +72,5 @@ span.first_letter {
     position: absolute;
     text-align: center;
     border: 1px solid #fff;
-
 
 }

@@ -13,7 +13,9 @@ body {
 }
 
 .client__inner {
-    width: 1024px;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
     margin: auto;
     position: relative;
     
@@ -50,7 +52,8 @@ img.client__box_photo {
 }
 
 .card {
-    width: 356px;
+    max-width: 356px;
+    width: 100%;
     display: inline-block;
     background: white;
     min-height: 100px;
