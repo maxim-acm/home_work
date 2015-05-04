@@ -1,0 +1,33 @@
+.services {
+    width: 100%;
+    background: #959595;
+}
+
+.services__inner {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    background: #1cb79a;
+    height: 565px;
+    text-align: center;
+
+}
+
+.services__inner {
+
+}
+
+.services__object {
+
+    width: 30.72%;
+    display: inline-block;
+}
+
+.services__object p {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.services__object h2 {
+    margin-top: 50px;
+}
