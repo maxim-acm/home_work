@@ -7,12 +7,16 @@
 @import url("blocks/price/stylesheet_center.css");
 @import url("blocks/price/stylesheet_right.css");
 
+@import "media.css";
+
 /* stylesheets from Home folder */
 
 @import "../Home/task8/content/content.css";
 @import "../Home/task8/services/services.css";
 @import "../Home/task9/footer/footer.css";
 @import "../Home/task9/contacts/contacts.css";
+
+
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 
@@ -25,7 +29,7 @@ body {
 
 .holder__box {
     width: 100%;
-    min-width: 1024px;
+    margin: auto;
     height: 700px;
     display: inline-block;
     position: relative;
