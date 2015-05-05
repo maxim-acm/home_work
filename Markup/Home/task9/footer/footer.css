@@ -20,4 +20,9 @@
 
 .footer span {
     color: black;
+
 }
+.footer a {
+    text-decoration: none;
+}
+
