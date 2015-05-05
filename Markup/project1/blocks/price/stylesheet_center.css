@@ -18,7 +18,7 @@
 
 .holder__title {
     background: #ee8129;
-    height: 74px;
+    height: 16%;
     width: 100%;
     display: inline-block;
 }
@@ -37,7 +37,7 @@
     display: inline-block;
     width: 100%;
     text-align: center;
-    height: 163px;
+    height: 35.5%;
 }
 
 .holder__item .text {
@@ -93,7 +93,7 @@ ul.holder__table {
 }
 .holder__button {
     display: inline-block;
-    height: 90px;
+    height: 20%;
     width: 100%;
     position: relative;
 
@@ -114,7 +114,7 @@ a.button {
     box-shadow: 0 -3px #b3560b inset;
     left: 0;
     right: 0;
-    margin: 18px auto 30px auto;
+    margin: 5% auto auto auto;
 }
 
 .holder__button a.button:hover {
