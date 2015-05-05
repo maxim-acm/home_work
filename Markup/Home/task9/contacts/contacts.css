@@ -55,7 +55,7 @@ img.social {
 }
 
 #phone:before {
-    background:url('sprite_social.png') no-repeat 0 -131px;
+    background:url('sprite_social.png') no-repeat 0 -125px;
     width:28px;
     height:32px;
     display:block;
@@ -65,12 +65,13 @@ img.social {
 }
 
 #mail:before {
-    background:url('sprite_social.png') no-repeat 0 -173px;
+    background:url('sprite_social.png') no-repeat 0 -160px;
     width:28px;
     height:32px;
     display:block;
     position:absolute;
     content: " ";
     left: 0;
+
 
 }
