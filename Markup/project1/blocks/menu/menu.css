@@ -28,4 +28,10 @@
 
 .menu__item a:hover {
     color: #ee8129;
+    border-bottom: solid 4px #3070a8;
+}
+
+.menu__item a:hover  .menu__item_current_true {
+    color: #ee8129;
+    border-bottom: none;
 }
