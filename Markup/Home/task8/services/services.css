@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+body {
+    font-family: sans-serif;
+    color: #999;
+}
+
+.services {
+    position: relative;
+    width: 100%;
+    min-height: 565px;
+    display: block;
+
+}
+
+.services__inner {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    min-height: 565px;
+    text-align: center;
+    display: block;
+
+
+}
+
+.services__inner {
+
+}
+
+.services__object-left,
+.services__object-middle,
+.services__object-right {
+
+    width: 30.72%;
+    display: inline-block;
+}
+
+.services__object-left {
+    float: left;
+}
+
+.services__object-right {
+    float: right;
+}
+
+.services__object p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Droid Sans', sans-serif;
+
+}
+.services__inner h2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #41525c;
+
+}
+
+.services__inner h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Droid Sans', sans-serif;
+    color: #2f6ea5;
+}
