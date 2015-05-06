@@ -1,22 +1,20 @@
-@media (max-width: 950px ) {
-    .header h1{
+@media (max-width: 1000px ) {
+    .header h1 {
         padding: 0;
         margin: 0 0 0 30px;
 
     }
 
-
     .holder__left {
         width: 250px;
         height: 420px;
-        left:-500px !important;
+        left: -500px !important;
 
     }
 
     .holder__middle {
         width: 250px;
         height: 440px;
-
 
     }
 
@@ -34,18 +32,34 @@
     .holder__middle a.button {
         margin: 3% auto auto auto;
     }
+
     .holder__right a.button {
         margin: 5% auto auto auto;
     }
-}
 
-@media (max-width: 800px) {
-
-    .header h1{
-        padding: 0;
-        margin: 0;
+    .client__box_left {
         text-align: center;
+        float: none;
 
     }
 
+    .client__box_right {
+        text-align: center;
+        float: none;
+    }
+
 }
+
+@media (max-width: 1200px) {
+    .contacts__inner {
+
+        width: 90% !important;
+
+    }
+
+    .content__inner {
+
+        width: 90% !important;
+    }
+}
+
