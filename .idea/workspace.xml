@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a77eea9-7a76-4d39-ba35-6a62c9977220" name="Default" comment="add">
+    <list default="true" id="6a77eea9-7a76-4d39-ba35-6a62c9977220" name="Default" comment="task10 add icons">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Markup/Home/task10/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Markup/Home/task10/task10.css" afterPath="$PROJECT_DIR$/Markup/Home/task10/task10.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Markup/Home/task10/task10.html" afterPath="$PROJECT_DIR$/Markup/Home/task10/task10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="maxim-acm.github.io.iws" />
@@ -23,51 +34,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Markup/project1/index.html">
+      <file leaf-file-name="task10.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="172" column="65" selection-start-line="172" selection-start-column="65" selection-end-line="172" selection-end-column="65" />
+            <state vertical-scroll-proportion="-46.25">
+              <caret line="74" column="88" selection-start-line="74" selection-start-column="88" selection-end-line="74" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Markup/Home/task9/contacts/contacts.css">
+      <file leaf-file-name="task10.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2562112">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.7752809">
+              <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Markup/project1/media.css">
+      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testimonials.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Markup/project1/blocks/testimonials/testimonials.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Markup/Home/task8/content/content.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="25" />
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -106,6 +97,9 @@
         <option value="$PROJECT_DIR$/Markup/project1/media.css" />
         <option value="$PROJECT_DIR$/Markup/project1/blocks/testimonials/testimonials.css" />
         <option value="$PROJECT_DIR$/Markup/Home/task9/contacts/contacts.css" />
+        <option value="$PROJECT_DIR$/Markup/Home/task10/task10.html" />
+        <option value="$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/Markup/Home/task10/task10.css" />
       </list>
     </option>
   </component>
@@ -117,8 +111,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="height" value="680" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -143,7 +138,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,190 +187,51 @@
               <option name="myItemId" value="Home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maxim-acm.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maxim-acm.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Markup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alibaba/Documents/maxim-acm.github.io/Markup/project1/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Markup/Home/task10" />
       <recent name="$PROJECT_DIR$/Markup/Home/task9" />
       <recent name="C:\Users\Maxim\WebstormProjects\maxim-acm.github.io\Markup\project1\blocks\testimonials" />
       <recent name="C:\Users\Maxim\WebstormProjects\maxim-acm.github.io\Markup\project1\blocks\intro" />
       <recent name="C:\Users\Maxim\WebstormProjects\maxim-acm.github.io\Markup\project1\blocks\deals" />
-      <recent name="C:\Users\Maxim\WebstormProjects\maxim-acm.github.io\Markup\project1\blocks\menu" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task6/task2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/header/header.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/intro/intro.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/menu/menu.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/index.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/index.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Class/lesson9/task1.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Class/lesson9/task1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/content/circle.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/content/circle_blue.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/content/content.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/content/content.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/content/content_background.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/services/alert.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/services/detect.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/services/protect.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/services/services.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/services/services.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/task1.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/task1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/task2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task8/task2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/contacts/contacts.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/contacts/contacts.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/contacts/icon_facebook.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/contacts/icon_in.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/contacts/icon_twitter.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/contacts/map.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/contacts/sprite_social.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/footer/footer.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/footer/footer.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/price/check.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/price/stylesheet_center.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/price/stylesheet_left.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/price/stylesheet_right.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/testimonials/customer1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/testimonials/customer2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/testimonials/testimonials.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/testimonials/testimonials_background.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/media.css</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/circle.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/circle_blue.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/content.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/content.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/Home/task9/content_background.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/deals/check.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/deals/stylesheet_center.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/deals/stylesheet_left.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/deals/stylesheet_right.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/testimonials/cust_left.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/testimonials/cust_right.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/testimonials/task2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Markup/project1/blocks/testimonials/task2.jpg</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -477,7 +332,19 @@
       <option name="project" value="LOCAL" />
       <updated>1430923822734</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add">
+      <created>1430923889921</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1430923889921</updated>
+    </task>
+    <task id="LOCAL-00010" summary="task10 started">
+      <created>1431021620529</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1431021620529</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -490,15 +357,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1366" height="680" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -512,6 +379,26 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -530,7 +417,10 @@
     <MESSAGE value="project (content finished)" />
     <MESSAGE value="add padding" />
     <MESSAGE value="add testimonials" />
-    <option name="LAST_COMMIT_MESSAGE" value="add testimonials" />
+    <MESSAGE value="add" />
+    <MESSAGE value="task10 started" />
+    <MESSAGE value="task10 add icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="task10 add icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -541,7 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="134" column="65" selection-start-line="134" selection-start-column="65" selection-end-line="134" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="134" column="65" selection-start-line="134" selection-start-column="65" selection-end-line="134" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,42 +537,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/index.html">
+    <entry file="file://$PROJECT_DIR$/Markup/Home/task9/contacts/contacts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="172" column="65" selection-start-line="172" selection-start-column="65" selection-end-line="172" selection-end-column="65" />
-          <folding />
+        <state vertical-scroll-proportion="0.2562112">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task8/content/content.css">
+    <entry file="file://$PROJECT_DIR$/Markup/project1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.38709676">
+          <caret line="172" column="65" selection-start-line="172" selection-start-column="65" selection-end-line="172" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Markup/project1/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.69720495">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Markup/project1/blocks/testimonials/testimonials.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.58229816">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Markup/Home/task8/content/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39596274">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-46.25">
+          <caret line="74" column="88" selection-start-line="74" selection-start-column="88" selection-end-line="74" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task9/contacts/contacts.css">
+    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2562112">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7752809">
+          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
           <folding />
         </state>
       </provider>
