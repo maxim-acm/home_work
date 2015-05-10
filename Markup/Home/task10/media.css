@@ -1,0 +1,31 @@
+@media (max-width: 1170px) {
+
+    .preview {
+
+        width: 750px !important;
+    }
+}
+
+@media (max-width: 779px ) {
+
+    .preview {
+        width: 560px !important;
+        padding: 0 !important;
+    }
+
+
+    .portfolio h1 {
+        font-size: 35pt !important;
+    }
+}
+
+
+
+@media (max-width: 630px ) {
+    .preview {
+        top: 200px !important;
+    }
+    .portfolio h1 {
+        font-size: 30pt !important;
+    }
+}

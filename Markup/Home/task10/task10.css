@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
+@import "media.css";
 @import url(css/font-awesome.css);
 @font-face {
     font-family: 'fontawesome';
@@ -14,11 +15,13 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
+    min-width: 600px;
 }
 
 .portfolio__inner {
     display: block;
     max-width: 1400px;
+
     margin: auto;
 
 
@@ -149,4 +152,36 @@ body {
 .fa-link:before {
     font-family: fontawesome;
     content: "\f0c1";
+}
+
+.paranja
+{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9998;
+    background: rgba(255, 255, 255, .9);
+}
+
+.preview {
+    display: block;
+    position: absolute;
+    width: 1140px;
+    min-width: 390px;
+    max-height: 550px;
+    min-height: 260px;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 15px;
+    top: 258px;
+
+}
+
+.visibility {
+    visibility: visible;
 }
