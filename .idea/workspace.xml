@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a77eea9-7a76-4d39-ba35-6a62c9977220" name="Default" comment="">
+    <list default="true" id="4882e121-2f89-49ed-8cc1-9815bcafbc55" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Markup/Home/task10/media.css" afterPath="$PROJECT_DIR$/Markup/Home/task10/media.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Markup/Home/task10/task10.css" afterPath="$PROJECT_DIR$/Markup/Home/task10/task10.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Markup/Home/task10/task10.html" afterPath="$PROJECT_DIR$/Markup/Home/task10/task10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="maxim-acm.github.io.iws" />
@@ -27,38 +29,28 @@
       <file leaf-file-name="task10.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-47.5">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state vertical-scroll-proportion="-29.115385">
+              <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task10.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task10.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6348315">
-              <caret line="179" column="12" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="179" column="6" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Markup/project1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.625">
-              <caret line="172" column="65" selection-start-line="172" selection-start-column="65" selection-end-line="172" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Markup/Home/task10/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.6289445">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -70,37 +62,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
+        <option value="Html" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="MAX" />
-        <option value="tas" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Markup/Home/task6/task2.html" />
-        <option value="$PROJECT_DIR$/Markup/Home/task5/task2.html" />
-        <option value="$PROJECT_DIR$/Markup/Home/task5/task2.css" />
-        <option value="$PROJECT_DIR$/Markup/project1/blocks/stylesheets/intro.css" />
-        <option value="$PROJECT_DIR$/Markup/project1/blocks/stylesheets/task2.css" />
-        <option value="$PROJECT_DIR$/Markup/Home/task9/contacts.html" />
-        <option value="$PROJECT_DIR$/Markup/Home/task9/contacts.css" />
-        <option value="$PROJECT_DIR$/Markup/project1/index.html" />
-        <option value="$PROJECT_DIR$/Markup/project1/media.css" />
-        <option value="$PROJECT_DIR$/Markup/project1/blocks/testimonials/testimonials.css" />
-        <option value="$PROJECT_DIR$/Markup/Home/task9/contacts/contacts.css" />
-        <option value="$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/Markup/Home/Task 3/Task2.html" />
+        <option value="$PROJECT_DIR$/Markup/Home/Task 3/task4.html" />
+        <option value="$PROJECT_DIR$/Markup/Home/Task 3/stylesheet5.css" />
+        <option value="$PROJECT_DIR$/Markup/Home/Task 3/Task5.html" />
+        <option value="$PROJECT_DIR$/Markup/Home/Task 3/stylesheet.css" />
+        <option value="$PROJECT_DIR$/Markup/Home/Task 3/stylesheet4.css" />
         <option value="$PROJECT_DIR$/Markup/Home/task10/task10.html" />
-        <option value="$PROJECT_DIR$/Markup/Home/task10/media.css" />
         <option value="$PROJECT_DIR$/Markup/Home/task10/task10.css" />
+        <option value="$PROJECT_DIR$/Markup/Home/task10/media.css" />
       </list>
     </option>
   </component>
@@ -112,10 +93,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="26" />
-    <option name="width" value="1366" />
-    <option name="height" value="678" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +105,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -141,6 +122,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,10 +152,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,41 +195,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxim-acm.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxim-acm.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/alibaba/Documents/maxim-acm.github.io/Markup/project1/index.html" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Markup/Home/task10/image" />
-      <recent name="$PROJECT_DIR$/Markup/Home/task10" />
-      <recent name="$PROJECT_DIR$/Markup/Home/task9" />
-      <recent name="C:\Users\Maxim\WebstormProjects\maxim-acm.github.io\Markup\project1\blocks\testimonials" />
-      <recent name="C:\Users\Maxim\WebstormProjects\maxim-acm.github.io\Markup\project1\blocks\intro" />
-    </key>
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -299,150 +253,85 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a77eea9-7a76-4d39-ba35-6a62c9977220" name="Default" comment="" />
-      <created>1430168057028</created>
+      <changelist id="4882e121-2f89-49ed-8cc1-9815bcafbc55" name="Default" comment="" />
+      <created>1428925953233</created>
       <option name="number" value="Default" />
-      <updated>1430168057028</updated>
+      <updated>1428925953233</updated>
     </task>
-    <task id="LOCAL-00001" summary="width in %">
-      <created>1430220601849</created>
+    <task id="LOCAL-00001" summary="task 3.4 complete">
+      <created>1428939932112</created>
       <option name="number" value="00001" />
       <option name="project" value="LOCAL" />
-      <updated>1430220601849</updated>
+      <updated>1428939932112</updated>
     </task>
-    <task id="LOCAL-00002" summary="width in %">
-      <created>1430220744925</created>
+    <task id="LOCAL-00002" summary="task 3.5 complete">
+      <created>1428963604857</created>
       <option name="number" value="00002" />
       <option name="project" value="LOCAL" />
-      <updated>1430220744925</updated>
+      <updated>1428963604857</updated>
     </task>
-    <task id="LOCAL-00003" summary="project (contacts started)">
-      <created>1430588141062</created>
+    <task id="LOCAL-00003" summary="task 3.5 complete">
+      <created>1428963889956</created>
       <option name="number" value="00003" />
       <option name="project" value="LOCAL" />
-      <updated>1430588141062</updated>
+      <updated>1428963889956</updated>
     </task>
-    <task id="LOCAL-00004" summary="project (contacts started)">
-      <created>1430588206826</created>
+    <task id="LOCAL-00004" summary="task 3.4 complete">
+      <created>1428964522464</created>
       <option name="number" value="00004" />
       <option name="project" value="LOCAL" />
-      <updated>1430588206826</updated>
+      <updated>1428964522464</updated>
     </task>
-    <task id="LOCAL-00005" summary="project (contacts started)">
-      <created>1430588264349</created>
+    <task id="LOCAL-00005" summary="task 3.4 edit">
+      <created>1429011931949</created>
       <option name="number" value="00005" />
       <option name="project" value="LOCAL" />
-      <updated>1430588264349</updated>
+      <updated>1429011931949</updated>
     </task>
-    <task id="LOCAL-00006" summary="project (content finished)">
-      <created>1430670015473</created>
+    <task id="LOCAL-00006" summary="task 3.3 edit">
+      <created>1429014055963</created>
       <option name="number" value="00006" />
       <option name="project" value="LOCAL" />
-      <updated>1430670015473</updated>
+      <updated>1429014055963</updated>
     </task>
-    <task id="LOCAL-00007" summary="add padding">
-      <created>1430923733516</created>
+    <task id="LOCAL-00007" summary="task 3.4 edit final">
+      <created>1429016074548</created>
       <option name="number" value="00007" />
       <option name="project" value="LOCAL" />
-      <updated>1430923733516</updated>
+      <updated>1429016074548</updated>
     </task>
-    <task id="LOCAL-00008" summary="add testimonials">
-      <created>1430923822734</created>
+    <task id="LOCAL-00008" summary="task 3.4 edit final">
+      <created>1429016542461</created>
       <option name="number" value="00008" />
       <option name="project" value="LOCAL" />
-      <updated>1430923822734</updated>
+      <updated>1429016542461</updated>
     </task>
-    <task id="LOCAL-00009" summary="add">
-      <created>1430923889921</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1430923889921</updated>
-    </task>
-    <task id="LOCAL-00010" summary="task10 started">
-      <created>1431021620529</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1431021620529</updated>
-    </task>
-    <task id="LOCAL-00011" summary="task10 add icons">
-      <created>1431196308581</created>
-      <option name="number" value="00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1431196308581</updated>
-    </task>
-    <task id="LOCAL-00012" summary="move image to folder">
-      <created>1431243786660</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1431243786660</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add preview (demo)">
-      <created>1431258932686</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1431258932686</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add preview (demo)">
-      <created>1431259819967</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1431259819967</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="26" width="1366" height="678" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -456,17 +345,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="width in %" />
-    <MESSAGE value="project (contacts started)" />
-    <MESSAGE value="project (content finished)" />
-    <MESSAGE value="add padding" />
-    <MESSAGE value="add testimonials" />
-    <MESSAGE value="add" />
-    <MESSAGE value="task10 started" />
-    <MESSAGE value="task10 add icons" />
-    <MESSAGE value="move image to folder" />
-    <MESSAGE value="add preview (demo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add preview (demo)" />
+    <MESSAGE value="task 3.5 complete" />
+    <MESSAGE value="task 3.4 complete" />
+    <MESSAGE value="task 3.4 edit" />
+    <MESSAGE value="task 3.3 edit" />
+    <MESSAGE value="task 3.4 edit final" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 3.4 edit final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -476,7 +360,7 @@
     <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -484,61 +368,8 @@
     <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="65" selection-start-line="134" selection-start-column="65" selection-end-line="134" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="65" selection-start-line="134" selection-start-column="65" selection-end-line="134" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -546,166 +377,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task6/task2.html">
+    <entry file="file://$PROJECT_DIR$/Markup/project1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task6/task2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task7/task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task5/task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task5/task2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task5/task2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.018973215">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task6/task2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task6/task2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.5">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/blocks/header/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/blocks/intro/intro_pic.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/blocks/menu/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/blocks/intro/intro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task9/contacts/contacts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2562112">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Markup/project1/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69720495">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/blocks/testimonials/testimonials.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58229816">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task8/content/content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39596274">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/image/image1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53370786">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/media.css">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/project1/index.html">
+    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.625">
-          <caret line="172" column="65" selection-start-line="172" selection-start-column="65" selection-end-line="172" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.5">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state vertical-scroll-proportion="-29.115385">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Markup/Home/task10/task10.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6348315">
-          <caret line="179" column="12" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="179" column="6" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Markup/Home/task10/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6289445">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>

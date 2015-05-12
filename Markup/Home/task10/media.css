@@ -3,6 +3,7 @@
     .preview {
 
         width: 750px !important;
+        height: 260px !important;
     }
 }
 
@@ -10,6 +11,7 @@
 
     .preview {
         width: 560px !important;
+
         padding: 0 !important;
     }
 
@@ -27,5 +29,16 @@
     }
     .portfolio h1 {
         font-size: 30pt !important;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .visibility {
+        visibility: hidden !important;
+    }
+
+    .preview {
+        display: none !important;
     }
 }

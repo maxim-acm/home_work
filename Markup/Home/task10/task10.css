@@ -154,9 +154,7 @@ body {
     content: "\f0c1";
 }
 
-.paranja
-{
-
+.paranja {
     position: fixed;
     top: 0;
     right: 0;
@@ -166,22 +164,59 @@ body {
     background: rgba(255, 255, 255, .9);
 }
 
-.preview {
+.preview__image {
     display: block;
-    position: absolute;
-    width: 1134px;
+    width: 100%;
+
     min-width: 390px;
-    max-height: 546px;
+
     min-height: 260px;
-    z-index: 9999;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 273px;
-    border: 3px solid #999999;
+
+
+
 
 }
 
 .visibility {
     visibility: visible;
+}
+.preview {
+    position: absolute;
+    display: block;
+    top: 273px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1134px;
+    max-height: 546px;
+    z-index: 9999;
+    border: 3px solid #999999;
+    background-image: url("image/preview1.jpg");
+    background-size: cover;
+    height: 544px;
+
+}
+
+.preview__close {
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #f74c26;
+    text-align: center;
+    z-index: 9999;
+    top: -20px;
+    right: 17px;
+
+}
+
+.fa-close {
+    color: #fff;
+    line-height: 40px;
+
+}
+
+.preview__close:hover {
+    background: #1aa4ff;
+
 }
