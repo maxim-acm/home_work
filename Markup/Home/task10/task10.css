@@ -1,222 +1,272 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
-@import "media.css";
+@import 'media.css';
 @import url(css/font-awesome.css);
-@font-face {
+@font-face
+{
     font-family: 'fontawesome';
-    src:url('fonts/fontawesome-webfont.eot');
-    src:url('fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/fontawesome-webfont.eot');
+    src: url('fonts/fontawesome-webfont.eot') format('embedded-opentype'),
     url('fonts/fontawesome-webfont.woff') format('woff'),
     url('fonts/fontawesome-webfont.ttf') format('truetype'),
     url('fonts/fontawesome-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
-body {
-    margin: 0;
+body
+{
     font-family: 'Lato', sans-serif;
+
     min-width: 600px;
+    margin: 0;
 }
 
-.portfolio__inner {
+.portfolio__inner
+{
     display: block;
+
     max-width: 1400px;
-
     margin: auto;
-
-
 }
 
-.portfolio {
+.portfolio
+{
     display: block;
+
     width: 100%;
     height: auto;
-    background: #f6f9f9;
-    text-align: center;
     padding: 60px 0 116px 0;
+
+    text-align: center;
+
+    background: #f6f9f9;
 }
 
-.portfolio h1 {
+.portfolio h1
+{
     font-size: 41pt;
-    text-align: center;
-    margin: 0;
     font-weight: lighter;
+
+    margin: 0;
+
+    text-align: center;
 }
 
-.portfolio p {
+.portfolio p
+{
     font-size: 15pt;
-    text-align: center;
-    margin: 22px 0 80px 0;
     line-height: 23pt;
+
+    margin: 22px 0 80px 0;
+
+    text-align: center;
+
     color: #989898;
 }
 
-.portfolio__box {
+.portfolio__box
+{
+    position: relative;
+
     display: inline-block;
+
     width: 360px;
     height: 260px;
     margin: 15px;
-    position: relative;
-    text-align: center;
 
+    text-align: center;
 }
-.portfolio__img {
+.portfolio__img
+{
     width: 100%;
     height: 100%;
-
 }
 
-.portfolio__img-mask {
+.portfolio__img-mask
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
 
     width: 360px;
     height: 260px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
 
     text-align: center;
-
 }
 
-.mask {
-    background: #1aa4ff;
+.mask
+{
     opacity: 0;
+    background: #1aa4ff;
 }
 
 
-.info {
+.info
+{
     position: relative;
 }
 
-.zoom, .share {
-    position: relative;
-    display: inline-block;
-    height: 38px;
-    width: 38px;
-    border: 1px solid white;
+.zoom,
+.share
+{
     line-height: 40px;
-    border-radius: 2px;
-    color: white;
 
+    position: relative;
+
+    display: inline-block;
+
+    width: 38px;
+    height: 38px;
+
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
 }
 
-.share {
+.share
+{
     margin-left: 10px;
 }
 
-.portfolio__icon {
-    display: block;
-    max-width: 100px;
-    height: 41px;
+.portfolio__icon
+{
     position: absolute;
     top: 0;
-    left: 0;
-    bottom: 0;
     right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    max-width: 100px;
+    height: 41px;
     margin: auto;
+
     opacity: 0;
-
 }
 
-.portfolio__box:hover .mask{
-    opacity: 0.8;
-    -webkit-transition: 0.5s; /* Safari */
-    transition:  0.5s;
+.portfolio__box:hover .mask
+{
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+
+    opacity: .8;
 }
 
-.portfolio__box:hover .portfolio__icon{
+.portfolio__box:hover .portfolio__icon
+{
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+
     opacity: 1;
-    -webkit-transition:  0.5s; /* Safari */
-    transition:  0.5s;
 }
 
-.zoom:hover {
+.zoom:hover
+{
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+
     background: #1aa4ff;
-    -webkit-transition:  0.5s; /* Safari */
-    transition:  0.5s;
 }
 
-.share:hover {
+.share:hover
+{
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+
     background: #1aa4ff;
-    -webkit-transition: 0.5s; /* Safari */
-    transition: 0.5s;
 }
 
-.fa-search-plus:before {
+.fa-search-plus:before
+{
     font-family: fontawesome;
-    content: "\f00e";
+
+    content: '\f00e';
 }
 
 
-.fa-link:before {
+.fa-link:before
+{
     font-family: fontawesome;
-    content: "\f0c1";
+
+    content: '\f0c1';
 }
 
-.paranja {
+.paranja
+{
     position: fixed;
+    z-index: 9998;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 9998;
+
     background: rgba(255, 255, 255, .9);
 }
 
-.preview__image {
+.preview__image
+{
     display: block;
+
     width: 100%;
-
     min-width: 390px;
-
     min-height: 260px;
-
-
-
-
 }
 
-.visibility {
-    visibility: visible;
-}
-.preview {
+.preview
+{
     position: absolute;
-    display: block;
-    top: 273px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 1134px;
-    max-height: 546px;
     z-index: 9999;
-    border: 3px solid #999999;
-    background-image: url("image/preview1.jpg");
-    background-size: cover;
-    height: 544px;
+    top: 273px;
+    right: 0;
+    left: 0;
 
+    display: block;
+
+    width: 1134px;
+    height: 544px;
+    max-height: 546px;
+    margin: auto;
+
+    border: 3px solid #999;
+    background-image: url('image/preview1.jpg');
+    background-size: cover;
 }
 
-.preview__close {
-    display: block;
+.preview__close
+{
     position: absolute;
-    height: 40px;
-    width: 40px;
-    background: #f74c26;
-    text-align: center;
     z-index: 9999;
     top: -20px;
     right: 17px;
 
+    display: block;
+
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+
+    background: #f74c26;
 }
 
-.fa-close {
-    color: #fff;
+.fa-close
+{
     line-height: 40px;
 
+    color: #fff;
 }
 
-.preview__close:hover {
+.preview__close:hover
+{
     background: #1aa4ff;
+}
 
+
+.visibility
+{
+    visibility: visible;
 }
