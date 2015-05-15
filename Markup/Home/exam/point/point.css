@@ -1,3 +1,7 @@
+.point {
+    background: #fff;
+}
+
 .point__inner {
     text-align: center;
 }
@@ -11,9 +15,7 @@
     height: 160px;
 }
 
-.point__item_info {
-    max-width: 290px;
-}
+
 .first {
     float: left;
 }
@@ -24,4 +26,39 @@
 
 .third {
     float: right;
+}
+
+.point__title {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 42px;
+    font-weight: 100;
+    color: #6baee2;
+}
+
+.point__item_title {
+    font-size: 15px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.point__item_info {
+    max-width: 290px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333;
+}
+
+.point__box_button {
+    font-size: 13px;
+    line-height: 52px;
+    text-transform: uppercase;
+    width: 52px;
+    height: 52px;
+    border: 1px solid #e8e8e8;
+    border-radius: 100%;
+    margin: 20px auto 30px auto;
+
 }

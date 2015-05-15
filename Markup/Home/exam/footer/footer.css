@@ -1,0 +1,24 @@
+.footer {
+    min-height: 190px;
+    background: #1aa4ff;
+    color: #fff;
+}
+
+.footer__logo {
+    display: inline-block;
+}
+
+.footer__logo_img {
+    display: inline-block;
+}
+
+.footer__copyrights {
+    display: inline-block;
+}
+
+.footer__logo_name {
+    font-size:26px;
+    line-height: 29px;
+    text-transform: uppercase;
+    display: inline-block;
+}

@@ -2,7 +2,8 @@
 @import "intro/intro.css";
 @import "about/about.css";
 @import "point/point.css";
-
+@import "testimonials/testimonials.css";
+@import "footer/footer.css";
 
 body {
     font-family: Helvetica,sans-serif, Arial, sans-serif;
