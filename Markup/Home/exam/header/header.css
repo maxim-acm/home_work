@@ -1,0 +1,30 @@
+.header {
+    background: #3498db;
+    min-height: 77px;
+}
+
+.header__inner {
+    position: relative;
+}
+
+.header__logo {
+    display: inline-block;
+}
+
+.header__title {
+    display: inline-block;
+    font-size: 26px;
+    line-height: 77px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+
+}
+
+.header__social {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    line-height: 77px;
+
+}
