@@ -4,6 +4,7 @@
 
 .testimonials__inner {
     border-top: 1px solid #f2f2f2;
+    position: relative;
 }
 
 .testimonials__title {
@@ -43,25 +44,27 @@
     line-height: 20px;
 }
 
-.layout__button_name {
-    display: inline-block;
-    font-size: 25px;
-    text-transform: uppercase;
-    width: 540px;
-    height: 60px;
-    line-height: 60px;
-    background: #e74c3c;
-    color: #fff;
-    text-align: center;
+.testimonials__info:before {
+    display: block;
+    content: url("blockquote_after.png");
+    position: absolute;
+    right: 200px;
+    bottom: 0;
+
+
+}
+.testimonials__blockquote {
+    display: block;
+    max-width: 720px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    text-align: right;
+
 }
 
-.layout__button_icon {
+.blockquote-autor {
+
     display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    font-size: 25px;
-    text-align: center;
+
 }
+

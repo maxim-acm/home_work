@@ -4,6 +4,7 @@
 @import "point/point.css";
 @import "testimonials/testimonials.css";
 @import "footer/footer.css";
+@import "bottom/bottom.css";
 
 body {
     font-family: Helvetica,sans-serif, Arial, sans-serif;
@@ -15,12 +16,12 @@ h1, h2, h3, p {
     margin: 0;
 }
 
-.header, .intro, .about, .point, .testimonials, .footer{
+.header, .intro, .about, .point, .testimonials, .bottom, .footer{
     display: block;
     width: 100%;
 }
 
-.header__box, .intro__box, .about__box, .point__box, .testimonials__box, .footer__box {
+.header__box, .intro__box, .about__box, .point__box, .testimonials__box, .bottom__box, .footer__box {
     display: block;
     max-width: 1280px;
     width: 100%;
@@ -28,7 +29,7 @@ h1, h2, h3, p {
     margin: auto;
 }
 
-.header__inner, .intro__inner, .about__inner, .point__inner, .testimonials__inner, .footer__inner {
+.header__inner, .intro__inner, .about__inner, .point__inner, .testimonials__inner, .bottom__inner, .footer__inner {
     display: block;
     width: 100%;
     max-width: 980px;

@@ -1,0 +1,25 @@
+.layout__button_name {
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 540px;
+    height: 60px;
+    line-height: 60px;
+    background: #e74c3c;
+    color: #fff;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.layout__button_icon {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
