@@ -14,11 +14,29 @@
 
 .footer__copyrights {
     display: inline-block;
+    max-width: 640px;
+    border-left: 1px solid #2980b9;
+    height: 60px;
+    padding-left: 20px;
+    margin-left: 20px;
 }
 
-.footer__logo_name {
+.copyrights__info {
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.footer__title {
     font-size:26px;
-    line-height: 190px;
+
     text-transform: uppercase;
     display: inline-block;
+    font-weight: normal;
+}
+
+.copyrights__social {
+    
+    font-size: 13px;
+    line-height: 32px;
 }

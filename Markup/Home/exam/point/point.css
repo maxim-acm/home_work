@@ -64,3 +64,8 @@
     margin: 20px auto 30px auto;
 
 }
+
+.point__box_button:hover {
+    background: #f2f2f2;
+    cursor: pointer;
+}

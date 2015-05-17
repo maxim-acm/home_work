@@ -5,6 +5,7 @@
 .testimonials__inner {
     border-top: 1px solid #f2f2f2;
     position: relative;
+    min-height: 275px;
 }
 
 .testimonials__title {
@@ -14,7 +15,6 @@
     text-transform: uppercase;
     font-weight: normal;
     padding-top: 40px;
-    margin-bottom: 65px;
     display: inline-block;
 
 }
@@ -38,33 +38,37 @@
     margin-left: 3px;
 }
 
-.testimonials__info {
-    width: 727px;
-    font-size: 13px;
-    line-height: 20px;
-}
 
-.testimonials__info:before {
+.blockquote__info:before,
+.blockquote-autor:after {
     display: block;
     content: url("blockquote_after.png");
-    position: absolute;
-    right: 200px;
-    bottom: 0;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
 
 
 }
 .testimonials__blockquote {
-    display: block;
-    max-width: 720px;
-    padding-top: 20px;
-    padding-bottom: 80px;
-    text-align: right;
 
+    max-width: 727px;
 }
 
 .blockquote-autor {
+    text-align: right;
+    margin-top: 20px;
 
-    display: inline-block;
 
+}
+
+.blockquote__info {
+
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.testimonials__button_last, .testimonials__button_next:hover {
+    background: #f2f2f2;
+    cursor: pointer;
 }
 

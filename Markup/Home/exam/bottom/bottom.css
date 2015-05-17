@@ -23,3 +23,6 @@
     text-align: center;
 }
 
+.layout__button_name:hover {
+    cursor: pointer;
+}
