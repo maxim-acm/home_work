@@ -1,0 +1,136 @@
+@media (max-width: 1000px) {
+    .header,
+    .intro,
+    .about,
+    .point,
+    .testimonials,
+    .bottom,
+    .footer
+    {
+        display: block;
+
+        width: 100% ;
+        max-width: 800px ;
+        margin: auto;
+    }
+
+    .header__inner,
+    .intro__inner,
+    .about__inner,
+    .point__inner,
+    .testimonials__inner,
+    .bottom__inner,
+    .footer__inner
+    {
+
+        width: 100%;
+        max-width: 760px !important;
+        margin: auto;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .point__inner {
+        display: inline-block !important;
+    }
+
+    .banner__info {
+        font-size: 25px;
+        max-width: 385px;
+    }
+
+    .about__info {
+        max-width: 390px;
+    }
+
+    .about__title {
+        padding-top: 25px;
+    }
+
+    .point__inner {
+        text-align: left;
+    }
+
+    .point__item {
+        display: block;
+    }
+    .first,
+    .third {
+        float: none;
+    }
+
+
+    .point__item_title {
+        line-height: 17px;
+        margin-bottom: 20px;
+
+    }
+
+    .point__item_img {
+        float: left;
+        margin-right: 20px;
+    }
+    .point__item_info {
+        max-width: 800px;
+
+    }
+
+    .point__box_button {
+        margin: 20px 0 20px 310px;
+    }
+
+    .student {
+        right: 0;
+    }
+
+    .testimonials__blockquote {
+        max-width: 540px;
+    }
+
+    .layout__button_name {
+        width: 470px;
+        font-size: 20px;
+    }
+
+    .footer__copyrights {
+        max-width: 470px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header,
+    .intro,
+    .about,
+    .point,
+    .testimonials,
+    .bottom,
+    .footer
+    {
+        display: block;
+
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .header__inner,
+    .intro__inner,
+    .about__inner,
+    .point__inner,
+    .testimonials__inner,
+    .bottom__inner,
+    .footer__inner
+    {
+        display: block;
+
+        width: 100%;
+        max-width: 320px;
+        margin: auto;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .header__logo
+    {
+        display: block;
+        text-align: center;
+    }
+}

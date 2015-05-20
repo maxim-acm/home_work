@@ -1,28 +1,52 @@
-.layout__button_name {
-    display: inline-block;
+.layout__button
+{
+    position: relative;
+}
+
+.layout__button_name
+{
     font-size: 25px;
-    text-transform: uppercase;
+    line-height: 60px;
+
+    display: inline-block;
+
     width: 540px;
     height: 60px;
-    line-height: 60px;
-    background: #e74c3c;
-    color: #fff;
-    text-align: center;
     margin-top: 65px;
     margin-bottom: 65px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+    background: #e74c3c;
 }
 
-.layout__button_icon {
+.layout__button_icon
+{
+    font-size: 25px;
+    line-height: 25px;
+
     display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 100%;
+
     width: 25px;
     height: 25px;
-    line-height: 25px;
-    font-size: 25px;
+
     text-align: center;
+
+    border: 2px solid #fff;
+    border-radius: 100%;
 }
 
-.layout__button_name:hover {
+.layout__button_name:hover
+{
     cursor: pointer;
+    background-color: #ff7061;
+}
+
+.student
+{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
 }

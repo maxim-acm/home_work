@@ -1,45 +1,109 @@
-.header {
-    background: #3498db;
+.header
+{
     min-height: 77px;
+
+    background: #3498db;
 }
 
-.header__inner {
+.header__inner
+{
     position: relative;
 }
 
-.header__logo {
+.header__logo
+{
     display: inline-block;
 }
 
-.header__title {
-    display: inline-block;
+    .header__title
+{
     font-size: 26px;
-    line-height: 77px;
-    text-transform: uppercase;
-    color: #fff;
     font-weight: normal;
+    line-height: 77px;
+
+    display: inline-block;
+
     margin-left: 15px;
 
+    text-transform: uppercase;
+
+    color: #fff;
 }
 
-.header__social {
-    display: inline-block;
-    color: #fff;
-    font-size: 13px;
-    line-height: 77px;
+.header__social
+{
     float: right;
 
+    margin-top: 29px;
+
+    list-style: none;
 }
 
-.logo {
+.social__links
+{
+    font-size: 13px;
+
     display: inline-block;
-    text-transform: uppercase;
+
+    margin: 0;
+    padding: 0;
+
     color: #fff;
+}
+
+.links__list
+{
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: middle;
+}
+
+.header__social li
+{
+    display: inline-block;
+
+    list-style: none;
+}
+
+.icon-f
+{
+    background: url('');
+}
+
+.social__icon
+{
+    display: block;
+    overflow: hidden;
+
+    width: 22px;
+    height: 22px;
+
+    list-style: none;
+
+    vertical-align: middle;
+    text-indent: 100%;
+
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.logo
+{
     font-size: 22px;
     line-height: 50px;
+
+    display: inline-block;
+
     width: 50px;
     height: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
     border: 2px solid #fff;
     border-radius: 100%;
-    text-align: center;
 }

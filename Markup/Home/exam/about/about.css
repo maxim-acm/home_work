@@ -1,19 +1,22 @@
-.about__info {
-    display: inline-block;
-    max-width: 620px;
+.about__info
+{
     font-size: 13px;
     line-height: 20px;
 
+    max-width: 590px;
 }
 
-.about__title {
-    text-transform: uppercase;
+.about__title
+{
     font-size: 15px;
     line-height: 42px;
-    padding-top: 34px;
+
+    padding-top: 30px;
+
+    text-transform: uppercase;
 }
 
-.about {
+.about
+{
     min-height: 250px;
 }
-
