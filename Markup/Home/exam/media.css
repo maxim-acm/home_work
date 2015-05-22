@@ -10,7 +10,7 @@
         display: block;
 
         width: 100% ;
-        max-width: 800px ;
+        -max-width: 800px ;
         margin: auto;
     }
 
@@ -30,10 +30,6 @@
         padding-left: 5px;
     }
 
-    .point__inner {
-        display: inline-block !important;
-    }
-
     .banner__info {
         font-size: 25px;
         max-width: 385px;
@@ -49,10 +45,12 @@
 
     .point__inner {
         text-align: left;
+        padding-bottom: 20px;
     }
 
     .point__item {
         display: block;
+        margin-bottom: 20px;
     }
     .first,
     .third {
@@ -76,7 +74,7 @@
     }
 
     .point__box_button {
-        margin: 20px 0 20px 310px;
+        margin: 20px 0 0 310px;
     }
 
     .student {
@@ -132,5 +130,15 @@
     {
         display: block;
         text-align: center;
+    }
+
+    .intro__form {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+
+    .form__field {
+        width: 260px;
     }
 }
