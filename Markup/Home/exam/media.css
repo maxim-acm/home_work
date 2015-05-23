@@ -107,7 +107,7 @@
         display: block;
 
         width: 100%;
-        max-width: 320px;
+        -max-width: 320px;
     }
 
     .header__inner,
@@ -121,10 +121,35 @@
         display: block;
 
         width: 100%;
-        max-width: 320px;
+        max-width: 320px !important;
         margin: auto;
         padding-right: 5px;
         padding-left: 5px;
+    }
+
+    .banner__title {
+        padding-top: 35px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .banner__info {
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .header__inner {
+        height: 145px;
+        padding-top: 15px;
+
+    }
+
+    .header__title {
+        margin-left: 0;
+        line-height: 42px;
+        border-bottom: 1px solid #2980b9;
     }
     .header__logo
     {
@@ -132,13 +157,75 @@
         text-align: center;
     }
 
+    .logo {
+        display: block;
+        margin: auto;
+    }
+
+    .header__social {
+        position: absolute;
+        bottom: 0;
+        padding-left: 90px;
+    }
+
     .intro__form {
         width: 300px;
         float: none;
         margin: auto;
+        top: 200px;
+        left: 0;
+        right: 0;
+        position: absolute !important;
+    }
+
+    .point__inner {
+        text-align: center;
+    }
+    .point__title {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .point__item_title {
+        line-height: 42px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .point__item_img {
+        float: none !important;
     }
 
     .form__field {
-        width: 260px;
+        width: 245px;
+    }
+
+    .about__title {
+        padding-top: 415px;
+        text-align: center;
+    }
+
+    .about__info {
+        text-align: center;
+    }
+
+    .point__box_button {
+        margin: 20px auto;
+
+    }
+
+    .testimonials__title {
+        text-align: center;
+    }
+
+    .testimonials__button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+    }
+    .layout__button_name {
+        width: 300px;
+        height: 130px;
     }
 }
