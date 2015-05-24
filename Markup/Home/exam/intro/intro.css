@@ -69,6 +69,8 @@
     padding-left: 15px;
     font-size: 15px;
     text-transform: capitalize;
+    -webkit-appearance: none;
+    border-radius: 0;
 
 
 }
