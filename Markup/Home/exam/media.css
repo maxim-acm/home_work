@@ -35,6 +35,10 @@
         max-width: 385px;
     }
 
+    .form__button {
+        margin-bottom: 20px;
+    }
+
     .about__info {
         max-width: 390px;
     }
