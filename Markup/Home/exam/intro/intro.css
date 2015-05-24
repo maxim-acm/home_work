@@ -103,6 +103,7 @@ textarea {
     text-transform: capitalize;
 
     -webkit-appearance: none;
+    border-radius: 0;
 }
 
 
