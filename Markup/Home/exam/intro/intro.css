@@ -48,7 +48,7 @@
     display: block;
 
     width: 360px;
-    height: 540px;
+    -height: 540px;
 
     background: #fff;
     text-align: center;
