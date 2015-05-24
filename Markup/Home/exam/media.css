@@ -95,7 +95,7 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media  (device-width: 800px) {
     .header,
     .intro,
     .about,
