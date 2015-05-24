@@ -41,8 +41,8 @@
       <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Markup/Home/exam/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94866073">
-              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.9296875">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -894,7 +894,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432472060660</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="optimize ipad">
+      <created>1432472310041</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1432472310041</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1349,8 +1355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Markup/Home/exam/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94866073">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.9296875">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
           <folding />
         </state>
       </provider>
