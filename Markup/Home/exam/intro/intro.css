@@ -101,6 +101,8 @@ textarea {
 
     margin-top: 16px;
     text-transform: capitalize;
+
+    -webkit-appearance: none;
 }
 
 
