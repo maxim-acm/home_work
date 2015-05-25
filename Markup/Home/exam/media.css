@@ -98,6 +98,7 @@
         font-size: 20px;
     }
 
+
     .footer__copyrights {
         max-width: 470px;
         height: auto;
@@ -164,6 +165,8 @@
     {
         display: block;
         text-align: center;
+        width: 250px;
+        margin: auto;
     }
 
     .logo {
@@ -229,6 +232,7 @@
 
     .testimonials__title {
         text-align: center;
+        padding-bottom: 40px;
     }
 
     .testimonials__button {
@@ -238,8 +242,8 @@
         top: 100px;
     }
     .layout__button_name {
-        width: 300px;
-        height: 130px;
+        width: 250px;
+        height: 115px;
         position: absolute;
         margin: auto;
         top: 0;
@@ -247,6 +251,20 @@
         left: 0;
         right: 0;
         z-index: 2;
+        font-size: 20px;
+        line-height: 32px;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .layout__button_icon {
+        display: block;
+        margin: auto;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        background-position: -84px -5px !important;
     }
 
     .bottom__inner  {
@@ -281,6 +299,10 @@
         font-size: 20px;
         line-height: 42px;
         border-bottom: 1px solid #2980b9;
+        width: auto;
     }
 
+    .footer__logo .logo {
+        margin: auto;
+    }
 }

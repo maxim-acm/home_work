@@ -28,13 +28,18 @@
 
     display: inline-block;
 
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 33px;
 
     text-align: center;
 
     border: 2px solid #fff;
     border-radius: 100%;
+
+    vertical-align: middle;
+
+    background: url(../sprite/sprite-arrow.svg) no-repeat -82px -3px;
+
 }
 
 .layout__button_name:hover

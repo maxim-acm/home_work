@@ -45,10 +45,10 @@
     margin-bottom: 100px;
     float: right;
 
+
     display: block;
 
     width: 360px;
-    -height: 540px;
 
     background: #fff;
     text-align: center;
@@ -113,4 +113,23 @@ textarea {
 .form__button:hover {
     cursor: pointer;
     background-color: #ff7061;
+}
+
+.inputfirst {
+    position: relative;
+
+}
+
+.inputfirst:before {
+
+    background: url(../sprite/sprite-arrow.svg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    content: '';
+    position: absolute;
+    height:40px;
+    width: 40px;
+    top: 0;
+    right: 25px;
 }

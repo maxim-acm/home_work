@@ -43,11 +43,12 @@
     font-size: 26px;
     font-weight: normal;
     line-height: 28px;
-    width: 150px;
+    width: 140px;
 
     display: inline-block;
 
     text-transform: uppercase;
+    vertical-align: middle;
 }
 
 .copyrights__social
@@ -74,4 +75,11 @@
     padding: 0;
 
     list-style: none;
+}
+
+.footer__logo .logo {
+    width: 67px;
+    height: 67px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
