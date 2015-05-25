@@ -1,4 +1,5 @@
-@media (max-width: 1000px) {
+@media (max-width: 1000px)
+{
     .header,
     .intro,
     .about,
@@ -10,8 +11,8 @@
         display: block;
 
         width: 100% ;
-        -max-width: 800px ;
         margin: auto;
+
     }
 
     .header__inner,
@@ -22,7 +23,6 @@
     .bottom__inner,
     .footer__inner
     {
-
         width: 100%;
         max-width: 760px !important;
         margin: auto;
@@ -30,82 +30,103 @@
         padding-left: 5px;
     }
 
-    .about__inner {
+    .about__inner
+    {
         padding-bottom: 20px;
     }
 
-    .banner__info {
+    .banner__info
+    {
         font-size: 25px;
+
         max-width: 385px;
     }
 
-    .form__button {
+    .form__button
+    {
         margin-bottom: 20px;
     }
 
-    .about__info {
+    .about__info
+    {
         max-width: 390px;
     }
 
-    .about__title {
+    .about__title
+    {
         padding-top: 25px;
     }
 
-    .point__inner {
-        text-align: left;
+    .point__inner
+    {
         padding-bottom: 20px;
+
+        text-align: left;
     }
 
-    .point__item {
+    .point__item
+    {
         display: block;
+
         margin-bottom: 20px;
     }
     .first,
-    .third {
+    .third
+    {
         float: none;
     }
 
 
-    .point__item_title {
+    .point__item_title
+    {
         line-height: 17px;
-        margin-bottom: 20px;
 
+        margin-bottom: 20px;
     }
 
-    .point__item_img {
+    .point__item_img
+    {
         float: left;
+
         margin-right: 20px;
     }
-    .point__item_info {
+    .point__item_info
+    {
         max-width: 800px;
-
     }
 
-    .point__box_button {
+    .point__box_button
+    {
         margin: 20px 0 0 310px;
     }
 
-    .student {
+    .student
+    {
         right: 0;
     }
 
-    .testimonials__blockquote {
+    .testimonials__blockquote
+    {
         max-width: 540px;
     }
 
-    .layout__button_name {
-        width: 470px;
+    .layout__button_name
+    {
         font-size: 20px;
+
+        width: 470px;
     }
 
 
-    .footer__copyrights {
+    .footer__copyrights
+    {
         max-width: 470px;
         height: auto;
     }
 }
 
-@media  (max-width: 800px) {
+@media  (max-width: 800px)
+{
     .header,
     .intro,
     .about,
@@ -117,7 +138,7 @@
         display: block;
 
         width: 100%;
-        -max-width: 320px;
+
     }
 
     .header__inner,
@@ -137,172 +158,221 @@
         padding-left: 5px;
     }
 
-    .banner__title {
-        padding-top: 35px;
-        text-align: center;
+    .banner__title
+    {
         font-size: 40px;
         line-height: 42px;
+
+        padding-top: 35px;
+
+        text-align: center;
     }
 
-    .banner__info {
-        text-align: center;
+    .banner__info
+    {
         font-size: 16px;
         line-height: 28px;
+
+        text-align: center;
     }
 
-    .header__inner {
+    .header__inner
+    {
         height: 145px;
         padding-top: 15px;
-
     }
 
-    .header__title {
-        margin-left: 0;
+    .header__title
+    {
         line-height: 42px;
+
+        margin-left: 0;
+
         border-bottom: 1px solid #2980b9;
     }
     .header__logo
     {
         display: block;
-        text-align: center;
+
         width: 250px;
         margin: auto;
+
+        text-align: center;
     }
 
-    .logo {
+    .logo
+    {
         display: block;
+
         margin: auto;
     }
 
-    .header__social {
+    .header__social
+    {
         position: absolute;
         bottom: 0;
+
         padding-left: 90px;
     }
 
-    .intro__form {
-        width: 300px;
-        float: none;
-        margin: auto;
-        top: 200px;
-        left: 0;
-        right: 0;
+    .intro__form
+    {
         position: absolute !important;
+        top: 200px;
+        right: 0;
+        left: 0;
+
+        float: none;
+
+        width: 300px;
+        margin: auto;
     }
 
-    .point__inner {
+    .point__inner
+    {
         text-align: center;
     }
-    .point__title {
-        text-align: center;
+    .point__title
+    {
         padding-top: 30px;
         padding-bottom: 30px;
+
+        text-align: center;
     }
-    .point__item_title {
-        line-height: 42px;
+    .point__item_title
+    {
         font-size: 15px;
+        line-height: 42px;
+
         margin: 0;
     }
 
-    .point__item_img {
+    .point__item_img
+    {
         float: none !important;
     }
 
-    .form__field {
+    .form__field
+    {
         width: 245px;
     }
 
-    .about__title {
+    .about__title
+    {
         padding-top: 415px;
+
         text-align: center;
     }
 
-    .about__info {
+    .about__info
+    {
         text-align: center;
     }
 
-    .point__box_button {
+    .point__box_button
+    {
         margin: 20px auto;
-
     }
 
-    .testimonials__inner {
+    .testimonials__inner
+    {
         height: 505px;
     }
 
-    .testimonials__title {
-        text-align: center;
+    .testimonials__title
+    {
         padding-bottom: 40px;
+
+        text-align: center;
     }
 
-    .testimonials__button {
+    .testimonials__button
+    {
         position: absolute;
-        left: 0;
-        right: 0;
         top: 100px;
-    }
-    .layout__button_name {
-        width: 250px;
-        height: 115px;
-        position: absolute;
-        margin: auto;
-        top: 0;
-        bottom: 0;
-        left: 0;
         right: 0;
-        z-index: 2;
+        left: 0;
+    }
+    .layout__button_name
+    {
         font-size: 20px;
         line-height: 32px;
+
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        width: 250px;
+        height: 115px;
+        margin: auto;
         padding-top: 15px;
-        padding-left: 20px;
         padding-right: 20px;
+        padding-left: 20px;
     }
 
-    .layout__button_icon {
+    .layout__button_icon
+    {
+        line-height: 30px;
+
         display: block;
-        margin: auto;
+
         width: 30px;
         height: 30px;
-        line-height: 30px;
+        margin: auto;
+
         background-position: -84px -5px !important;
     }
 
-    .bottom__inner  {
+    .bottom__inner
+    {
         height: 240px;
     }
 
-    .student {
+    .student
+    {
         position: absolute;
-        left: 0;
         right: 0;
+        left: 0;
+
         margin: auto;
     }
 
-    .footer__inner {
-        text-align: center;
+    .footer__inner
+    {
         height: 285px;
         padding-top: 30px;
+
+        text-align: center;
     }
 
-    .footer__copyrights {
-        border: none;
+    .footer__copyrights
+    {
         margin: 0;
         padding: 0;
+
+        border: none;
     }
 
-    .copyrights__info {
+    .copyrights__info
+    {
         margin-top: 30px;
-
     }
 
-    .logo__title {
+    .logo__title
+    {
         font-size: 20px;
         line-height: 42px;
-        border-bottom: 1px solid #2980b9;
+
         width: auto;
+
+        border-bottom: 1px solid #2980b9;
     }
 
-    .footer__logo .logo {
+    .footer__logo .logo
+    {
         margin: auto;
     }
 }
