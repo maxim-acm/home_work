@@ -1,4 +1,5 @@
-.bottom__inner {
+.bottom__inner
+{
     position: relative;
 }
 
@@ -32,19 +33,17 @@
     height: 33px;
 
     text-align: center;
+    vertical-align: middle;
 
     border: 2px solid #fff;
     border-radius: 100%;
-
-    vertical-align: middle;
-
     background: url(../sprite/sprite-arrow.svg) no-repeat -82px -3px;
-
 }
 
 .layout__button_name:hover
 {
     cursor: pointer;
+
     background-color: #ff7061;
 }
 

@@ -53,15 +53,17 @@
     background: url(../sprite/sprite-arrow.svg) no-repeat 0 0;
 }
 
-.testimonials__button_next {
+.testimonials__button_next
+{
     background-position: -40px 0;
-
 }
 
-.testimonials__button_last {
-    -ms-transform: rotate(180deg);
+.testimonials__button_last
+{
     -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
+
     background-position: -40px 0;
 }
 
@@ -75,19 +77,17 @@
     margin-bottom: 22px;
 
     content: url('blockquote_after.png');
-
-
-}
-.blockquote-autor:after {
-
 }
 
-.blockquote__info:before {
-    -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+
+.blockquote__info:before
+{
     width: 19px;
     height: 14px;
+
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 .testimonials__blockquote
 {
@@ -96,11 +96,12 @@
 
 .blockquote-autor
 {
+    font-weight: bold;
+
     margin-top: 20px;
 
     text-align: right;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 .blockquote__info
