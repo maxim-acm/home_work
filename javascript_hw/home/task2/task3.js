@@ -1,12 +1,11 @@
 /**
  * Created by Maxim on 09.06.2015.
  */
-var userName = function(name, password) {
-    name = prompt("Enter you login");
+(function(name, password) {
+    name = prompt("Enter you name");
 
     if (name === "admin") {
-        password = prompt("Enter you Password");
-
+        password = prompt("Enter you Password pls" );
         if (password === "passw0rd") {
             alert("Welcome home!")}
         else
@@ -17,7 +16,6 @@ var userName = function(name, password) {
     }
 
     else
-        alert("Access denied");
+        alert("Access denied")
 
-};
-userName();
+})();
