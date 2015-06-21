@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4882e121-2f89-49ed-8cc1-9815bcafbc55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript_hw/home/task6/task1" afterPath="$PROJECT_DIR$/javascript_hw/home/task6/task1" />
+    <list default="true" id="4882e121-2f89-49ed-8cc1-9815bcafbc55" name="Default" comment="add task2">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_hw/home/task6/task3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="9c0bf624-6aef-4892-9b1b-00214a3bcd01" name="Rejected commit: Default" comment="complete task 1-2" />
@@ -26,11 +26,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task1" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task1">
+      <file leaf-file-name="task2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1863354">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task3.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20962733">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -85,7 +107,11 @@
         <option value="$PROJECT_DIR$/javascript_hw/home/task2/task3.js" />
         <option value="$PROJECT_DIR$/javascript_hw/home/task2/task4.js" />
         <option value="$PROJECT_DIR$/javascript_hw/home/task3/task4.js" />
+        <option value="$PROJECT_DIR$/javascript_hw/home/task6/tasj2.js" />
         <option value="$PROJECT_DIR$/javascript_hw/home/task6/task1" />
+        <option value="$PROJECT_DIR$/javascript_hw/home/task6/task1.js" />
+        <option value="$PROJECT_DIR$/javascript_hw/home/task6/task2.js" />
+        <option value="$PROJECT_DIR$/javascript_hw/home/task6/task3.js" />
       </list>
     </option>
   </component>
@@ -405,7 +431,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javascript_hw/home/task2/task1.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -413,9 +438,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javascript_hw/home/task5/task1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javascript_hw/home/task5/task2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/javascript_hw/home/task5/task3.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -423,6 +445,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/javascript_hw/home/task6/task1</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -675,7 +698,25 @@
       <option name="project" value="LOCAL" />
       <updated>1434894269793</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add task6_1 review">
+      <created>1434894580620</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1434894580620</updated>
+    </task>
+    <task id="LOCAL-00020" summary="task6 add task1">
+      <created>1434901292134</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1434901292134</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add task2">
+      <created>1434901304449</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1434901304449</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -727,27 +768,15 @@
     <MESSAGE value="&amp;" />
     <MESSAGE value="add task6_1" />
     <MESSAGE value="add task6_1 review" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task6_1 review" />
+    <MESSAGE value="task6 add task1" />
+    <MESSAGE value="add task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add task2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Markup/Home/exam/testimonials/testimonials.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Markup/Home/exam/point/point.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Markup/Home/exam/intro/intro.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1084,11 +1113,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task1">
+    <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1863354">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20962733">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
