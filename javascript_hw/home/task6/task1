@@ -8,9 +8,6 @@ function removeClass(obj, cls) {
 
     for (var i = 0; i <arr.length; i++) {
 
-        console.log(arr[i] + ',' + [i]);
-
-
         if (arr[i] == cls) {
 
             arr.splice(i,1);

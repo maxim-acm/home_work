@@ -29,8 +29,8 @@
       <file leaf-file-name="task1" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task1">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.628882">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.1863354">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -669,7 +669,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434878426395</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add task6_1 review">
+      <created>1434894269793</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1434894269793</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -720,7 +726,8 @@
     <MESSAGE value="add anonymous function" />
     <MESSAGE value="&amp;" />
     <MESSAGE value="add task6_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task6_1" />
+    <MESSAGE value="add task6_1 review" />
+    <option name="LAST_COMMIT_MESSAGE" value="add task6_1 review" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1079,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript_hw/home/task6/task1">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.628882">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.1863354">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
