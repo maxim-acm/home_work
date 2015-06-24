@@ -32,9 +32,9 @@ var strings = ['кришна', 'кришна', 'харе', 'харе', 'харе', 'харе', 'кришна', 'кр
 
 function unique(arr) {
 
-    var arrSecond = [];
+    var arrSecond = [], len;
 
-    for (var i = 0; i <arr.length; i++){
+    for (var i = 0;  len = arr.length, i < len; i++){
 
         if (arrSecond.indexOf(arr[i]) == -1) {
 
