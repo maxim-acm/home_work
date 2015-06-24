@@ -28,3 +28,4 @@ multiplyNumeric(menu, image);
 
 
 console.log(menu);
+
