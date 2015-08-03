@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>my clock</title>
+</head>
+<style>
+    #clock {
+        width: 200px;
+        position: absolute;
+        margin: 50px auto;
+        left: 0;
+        right: 0;
+        background: #cccccc;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        color: black;
+    }
+</style>
+<body>
+
+    <div id="clock">
+        <span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span>
+    </div>
+    <script>
+
+        var min = document.getElementsByClassName('min');
+        for (var i = 0; i < min.length; i++) {
+            min[i].style.color = getRandomColor();
+        }
+
+        var hour = document.getElementsByClassName('hour');
+        for (var i = 0; i < hour.length; i++) {
+            hour[i].style.color = getRandomColor();
+        }
+
+        function myClock() {
+            var date = new Date();
+            var clock = document.getElementById('clock');
+
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+
+            clock.children[0].innerHTML = hours;
+            if (minutes < 10) {
+                minutes = '0' + minutes;
+            }
+            clock.children[1].innerHTML = minutes;
+            if (seconds < 10) {
+                seconds = '0' + seconds
+            }
+
+            clock.children[2].innerHTML = seconds;
+
+            var sec = document.getElementsByClassName('sec');
+            for (var i = 0; i < sec.length; i++) {
+                sec[i].style.color = getRandomColor();
+            }
+
+            if (seconds == 0) {
+
+                for (var i = 0; i < min.length; i++) {
+                    min[i].style.color = getRandomColor();
+                }
+
+            }
+
+            if (minutes == 0 && seconds == 0) {
+
+                for (var i = 0; i < hour.length; i++) {
+                    hour[i].style.color = getRandomColor();
+                }
+
+            }
+
+
+        }
+        function start() {
+            setInterval(myClock, 1000);
+            myClock();
+        }
+
+        start();
+
+        function getRandomColor() {
+
+            var letters = '0123456789ABCDEF'.split('');
+            var color = '#';
+
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+
+            return color;
+        }
+
+    </script>
+</body>
+
+</html>
