@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <style>
+        td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 7px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 50px auto;
+           text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="cal"></div>
+<script>
+
+    function calendar(id, year, month) {
+
+        var t = document.getElementById(id);
+
+        var calMonth = month - 1;
+
+        var calDate = new Date(year, calMonth);
+
+
+        var table = '<table><tr><td>пн</td><td>вт</td><td>ср</td><td>чт</td><td>пт</td><td>сб</td><td>вс</td></tr>';
+
+        for(var i = 0; i < getNumberWeekDay(calDate); i++) {
+            table += '<td></td>';
+        }
+
+        while (calDate.getMonth() == calMonth) {
+            table += '<td>' + calDate.getDate() + '</td>';
+
+            if (getNumberWeekDay(calDate) % 7 == 6) {
+                table += '</tr><tr>';
+            }
+
+            calDate.setDate(calDate.getDate() + 1);
+        }
+
+        if (getNumberWeekDay(calDate) !== 0) {
+            for (var i = getNumberWeekDay(calDate); i < 7; i++) {
+                table += '<td></td>';
+            }
+        }
+
+        table += '</table>';
+        t.innerHTML = table;
+    }
+
+    function getNumberWeekDay(date) {
+        var day = date.getDay();
+        if (day === 0) day = 7;
+        return day - 1;
+    }
+
+    calendar('cal', 2015, 8);
+
+</script>
+</body>
+</html>
