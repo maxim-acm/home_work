@@ -11,19 +11,21 @@ function startGame() {
     var aIntro = document.querySelector('.audio__intro');
     aIntro.play();
     divStart.classList.add('display-none');
-    setTimeout(moveGunMan, 100);
+    setTimeout(moveGunMan, 1000);
 }
 
+var tGunMan = document.querySelector('.gunman_time');
 function moveGunMan() {
     gunman.classList.add('display-block');
-
+    tGunMan.innerHTML = timeGunMan/1000;
     setTimeout(function() {
         gunman.classList.add('character-move');
         gunman.classList.add('character-going');
     }, 100);
     startFire();
+
 }
-var timeGunMan = 1000;
+var timeGunMan = 500;
 var statusDiv = document.querySelector('.game__status');
 function startFire() {
     gunman.addEventListener('transitionend', function() {
@@ -31,6 +33,7 @@ function startFire() {
         gunman.classList.add('bg-position-in-wait');
 
         setTimeout(function() {
+
             var aFire = document.querySelector('.audio__fire');
             aFire.play();
             statusDiv.innerHTML = 'FIRE!';
@@ -72,7 +75,6 @@ function userFire() {
         var aShot = document.querySelector('.audio__shot');
         aShot.play();
     }
-
 }
 
 function gunManFire() {
@@ -97,7 +99,7 @@ function gameOver() {
 
 }
 
-function runStartWindow() {
+function runStartWindo() {
     divStart.classList.remove('display-none');
     gunman.classList.remove('display-block');
     gunman.classList.remove('character-move');
