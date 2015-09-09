@@ -99,7 +99,7 @@ function gameOver() {
 
 }
 
-function runStartWindo() {
+function runStartWindow() {
     divStart.classList.remove('display-none');
     gunman.classList.remove('display-block');
     gunman.classList.remove('character-move');
