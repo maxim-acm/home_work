@@ -3,13 +3,19 @@
 <head>
     <title>Wild GunMan</title>
     <link type="text/css" href="stylesheet.css" rel="stylesheet">
+    <link type="text/css" href="game__info/game__info.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <div class="game">
+    <div class="game" onselectstart = "return false" onmousedown="return false">
+        <div class="game__info">
+            <div class="info__user box">time.you</div>
+            <hr>
+            <div class="info__gunman box">gunman</div>
+        </div>
 
-        <div class="game__start" onselectstart = "return false" onmousedown="return false">
+        <div class="game__start" >
             <div class="game__name">wild gunman</div>
             <div class="start__menu">
                 <div class="menu__a hover">game a 1 outlaw</div>
@@ -27,6 +33,15 @@
         <div class="game__over-paranja"></div>
 
     </div>
+
+    <audio src="sfx/intro.m4a" class="audio__intro"></audio>
+    <audio src="sfx/wait.m4a" class="audio__wait"></audio>
+    <audio src="sfx/shot.m4a" class="audio__shot"></audio>
+    <audio src="sfx/shot-fall.m4a" class="audio__shot-fall"></audio>
+    <audio src="sfx/foul.m4a" class="audio__foul"></audio>
+    <audio src="sfx/fire.m4a" class="audio__fire"></audio>
+    <audio src="sfx/win.m4a" class="audio__win"></audio>
+    <audio src="sfx/death.m4a" class="audio__death"></audio>
 </body>
 <script src="js_5.js"></script>
 </html>

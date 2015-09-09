@@ -4,7 +4,7 @@ body {
 
 .game {
     width: 980px;
-    height: 640px;
+    height: 740px;
     background: #333333;
     margin: 100px auto;
     position: relative;
@@ -108,8 +108,16 @@ body {
 
 }
 
+.character-death {
+    background-position: -337px 0;
+}
+
+.character-death-full {
+    background-position: -372px 0;
+}
+
 .character-going {
-    animation: play 0.4s steps(3) infinite;
+    animation: play 0.3s steps(3) infinite;
 }
 
 @keyframes play {

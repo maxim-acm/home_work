@@ -8,8 +8,10 @@ buttonStart.onclick = function() {
 var gunman = document.querySelector('.game__character');
 var divStart = document.querySelector('.game__start');
 function startGame() {
+    var aIntro = document.querySelector('.audio__intro');
+    aIntro.play();
     divStart.classList.add('display-none');
-    setTimeout(moveGunMan, 1000);
+    setTimeout(moveGunMan, 100);
 }
 
 function moveGunMan() {
@@ -18,7 +20,7 @@ function moveGunMan() {
     setTimeout(function() {
         gunman.classList.add('character-move');
         gunman.classList.add('character-going');
-    }, 1000);
+    }, 100);
     startFire();
 }
 var timeGunMan = 1000;
@@ -29,8 +31,11 @@ function startFire() {
         gunman.classList.add('bg-position-in-wait');
 
         setTimeout(function() {
+            var aFire = document.querySelector('.audio__fire');
+            aFire.play();
             statusDiv.innerHTML = 'FIRE!';
             statusDiv.classList.add('display-block');
+            flag = 0;
 
             gunman.classList.add('bg-position-in-start-to-shoot');
 
@@ -38,30 +43,58 @@ function startFire() {
                 gunman.classList.add('bg-position-in-prefire');
             }, timeGunMan/2);
 
-            setTimeout(gunManFire, timeGunMan);
+            userFire();
+
+            setTimeout(function() {
+                gunManFire();
+
+            }, timeGunMan);
 
         }, 2000);
     })
 
 
 }
+var flag = -1; // 0: user can fire, -1: user lost, 1: user win, 2: user fail
+
+var changeFlag = function() {
+
+    flag = 1;
+    userWin();
+    gunman.removeEventListener('click', changeFlag );
+
+};
 
 function userFire() {
+
+    if (flag == 0) {
+        gunman.addEventListener('click', changeFlag);
+        var aShot = document.querySelector('.audio__shot');
+        aShot.play();
+    }
 
 }
 
 function gunManFire() {
-    statusDiv.innerHTML = 'YOU LOST!!';
-    gunman.classList.add('bg-position-in-fire');
-    gameOver();
+    if (flag == 0) {
 
+        statusDiv.innerHTML = 'YOU LOST!!';
+        gunman.classList.add('bg-position-in-fire');
+        flag = -1;
+        gameOver();
+    }
 }
 var paranja = document.querySelector('.game__over-paranja');
 
 function gameOver() {
+    var aDeath = document.querySelector('.audio__death');
+    aDeath.play();
     paranja.classList.add('display-block');
-    gunman.classList.add('character-move-with-win');
-    setTimeout(runStartWindow, 4000);
+    setTimeout(function() {
+        gunman.classList.add('character-move-with-win');
+    },1000);
+    setTimeout(runStartWindow, 5000);
+
 }
 
 function runStartWindow() {
@@ -76,5 +109,19 @@ function runStartWindow() {
     gunman.classList.remove('bg-position-in-fire');
     paranja.classList.remove('display-block');
     gunman.classList.remove('character-move-with-win');
+    gunman.classList.remove('character-death');
+    gunman.classList.remove('character-death-full');
 
+}
+
+function userWin() {
+    var aWin = document.querySelector('.audio__win');
+    aWin.play();
+
+    statusDiv.innerHTML = 'YOU WON!';
+    gunman.classList.add('character-death');
+    setTimeout(function() {
+        gunman.classList.add('character-death-full');
+    }, 400);
+    setTimeout(runStartWindow, 4000);
 }
