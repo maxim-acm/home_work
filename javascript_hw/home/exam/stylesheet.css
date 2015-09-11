@@ -19,10 +19,7 @@ body {
     background: #333333;
     position: absolute;
     z-index: 2;
-
 }
-
-
 
 .game__name {
     color: #fd6f63;
@@ -42,8 +39,6 @@ body {
     cursor: pointer;
     width: 500px;
     margin: 100px auto;
-
-
 }
 
 .hover:hover::before {
@@ -76,15 +71,15 @@ body {
     height: 65px;
 }
 
+.bg-position-in-wait {
+    background-position: -100px 0;
+}
+
 .character-move {
     transition: 5s linear;
     right: 165px;
 }
 
-.bg-position-in-wait {
-    background-position: -100px 0;
-
-}
 .bg-position-in-start-to-shoot {
     background-position: -202px 0;
     transition: 0s;
