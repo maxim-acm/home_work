@@ -13,9 +13,42 @@
         // add some item to array in ls
         this.append = function (item, field) {
             var updatedList = this.getField(field);
-            updatedList.push(item);
+
+
+
+
+            if (updatedList.length == 0) {
+
+                updatedList.push(item);
+
+                console.log(updatedList);
+
+            } else {
+
+                for (var i = 0; i < updatedList.length; i++) {
+
+                    if (updatedList[i].id == item.id) {
+
+
+
+                        updatedList[i].qty += 1;
+                        console.log('+1');
+                        break;
+                    }
+
+
+
+
+                }
+
+
+
+
+            }
+            console.log(updatedList[0].valueOf());
 
             ls[field] = JSON.stringify(updatedList);
+
         };
 
         this.getField = function (field) {

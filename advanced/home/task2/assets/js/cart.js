@@ -103,7 +103,7 @@ $('.bigcart-a').click(function() {
         id: 'a-12',
         name: 'item1',
         price: '30',
-        qty: '1',
+        qty: 1,
         url: '#1'
     };
 
@@ -115,7 +115,7 @@ $('.bigcart-b').click(function() {
         id: 'b-12',
         name: 'item2',
         price: '50',
-        qty: '1',
+        qty: 1,
         url: '#1'
     };
 
