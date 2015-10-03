@@ -146,6 +146,12 @@ a:hover {
     width: 155px;
     height: 120px;
     margin: 0 0 40px 60px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 80px;
+    padding-left: 50px;
+    color: #fff;
+    text-align: left;
 
     background: url(../images/sprite.png);
     background-repeat: no-repeat;
