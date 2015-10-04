@@ -26,6 +26,7 @@
             this.viewCart();
         };
 
+
         this.getCart = function () {
             return ls.getField('cart');
         };
@@ -52,6 +53,14 @@
             newItem.find('.quantity').html(item.qty);
             newItem.find('.itemName').html(item.name).attr('href', item.url);
             newItem.find('.price').html(item.price);
+
+            newItem.find('.glyphicon').attr('data-id', item.id);
+
+            newItem.find('.glyphicon').click( function(){
+
+                var attr = this.getAttribute('data-id');
+                __self.removeItemsCart(attr);
+            });
 
             return newItem;
         };
@@ -83,6 +92,13 @@
         this.clearCart = function () {
             ls.clearField('cart');
             this.viewCart();
+        };
+
+        this.removeItemsCart = function(attr) {
+
+            ls.removeItems( attr, 'cart');
+            this.viewCart();
+
         };
 
         this.makeOrder = function () {

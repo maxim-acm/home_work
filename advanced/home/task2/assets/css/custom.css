@@ -323,19 +323,21 @@ a:hover {
     font-size: 24px;
 
     width: 24px;
-    padding: 0;
+
+    color: #4ea6bc;
+
+    top: -30px;
+    left: -5px;
 }
 
 .glyphicon-pencil {
-    margin: 7px 12px 7px 10px;
 
     color: #858e97;
 }
 
-.glyphicon-remove {
-    margin-right: 10px;
-
+.glyphicon:hover {
     color: #f06953;
+
 }
 
 /*-----------------------------------
