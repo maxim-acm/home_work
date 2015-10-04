@@ -50,7 +50,9 @@
         this.viewCartItem = function (item) {
             var newItem = domElems.itemTmpl.clone().removeClass('cart__item_tmpl');
 
-            newItem.find('.quantity').html(item.qty);
+            var parent = newItem.parentNode;
+
+            newItem.find('.quantity-number').html(item.qty);
             newItem.find('.itemName').html(item.name).attr('href', item.url);
             newItem.find('.price').html(item.price);
 
@@ -62,7 +64,28 @@
                 __self.removeItemsCart(attr);
             });
 
+            newItem.find('.quantity-min').click(function(){
+                var minItemId = $(this.parentNode).find('.glyphicon').attr('data-id');
+                __self.minQtyItems(minItemId);
+
+
+            });
+
+            newItem.find('.quantity-add').click(function(){
+                var addItemId = $(this.parentNode).find('.glyphicon').attr('data-id');
+                __self.addQtyItems(addItemId);
+            });
+
             return newItem;
+        };
+
+        this.minQtyItems = function (itemId) {
+            ls.removeItem(itemId, 'cart');
+
+        };
+
+        this.addQtyItems = function (itemId) {
+            ls.addItem(itemId, 'cart');
         };
 
         this.getItemsLength = function () {
