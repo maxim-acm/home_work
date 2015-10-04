@@ -170,7 +170,7 @@ a:hover {
 .row {
     margin-bottom: 11px;
     padding-bottom: 0;
-    padding-left: 15px;
+    padding-left: 5px;
 
     background-color: #ffffff;
     box-shadow: 0 1px 0 #e1e5e8;
@@ -199,17 +199,33 @@ a:hover {
 }
 
 .columnCaptions span:first-child {
-    padding-left: 8px;
+    padding-left: 35px;
 }
 
 .columnCaptions span {
-    padding: 0 21px 0 0;
+    padding: 0 21px 0 20px;
 }
 
 .columnCaptions span:last-child {
     float: right;
 
     padding-right: 72px;
+}
+
+li .quantity-add,
+li .quantity-min {
+    color: #E6EDF3;
+    text-align: center;
+    cursor: pointer;
+    !important;
+}
+.quantity-add {
+    margin-right: 20px;
+}
+
+.quantity-add:hover,
+.quantity-min:hover {
+    color: #4ea6bc;
 }
 
 /* Items */
@@ -230,8 +246,8 @@ a:hover {
     font-weight: bold;
 
     float: left;
-
-    width: 42px;
+    text-align: center;
+    width: 25px;
     padding-left: 7px;
 
     color: #4ea6bc;

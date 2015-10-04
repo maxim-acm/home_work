@@ -56,6 +56,36 @@
 
         };
 
+        this.removeItem = function(itemId, field) {
+            var updatedList = this.getField(field);
+
+            for (var i = 0; i < updatedList.length; i++) {
+
+                if (updatedList[i].id == itemId && updatedList[i].qty > 0) {
+
+                    updatedList[i].qty -= 1;
+                }
+            }
+
+            ls[field] = JSON.stringify(updatedList);
+            cart.viewCart();
+        };
+
+        this.addItem = function(itemId, field) {
+            var updatedList = this.getField(field);
+
+            for (var i = 0; i < updatedList.length; i++) {
+
+                if (updatedList[i].id == itemId) {
+
+                    updatedList[i].qty += 1;
+                }
+            }
+
+            ls[field] = JSON.stringify(updatedList);
+            cart.viewCart();
+        };
+
         this.getField = function (field) {
             return JSON.parse(ls[field]);
         };
