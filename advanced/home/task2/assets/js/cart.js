@@ -26,6 +26,7 @@
             this.viewCart();
         };
 
+
         this.getCart = function () {
             return ls.getField('cart');
         };
@@ -52,6 +53,14 @@
             newItem.find('.quantity').html(item.qty);
             newItem.find('.itemName').html(item.name).attr('href', item.url);
             newItem.find('.price').html(item.price);
+
+            newItem.find('.glyphicon').attr('data-id', item.id);
+
+            newItem.find('.glyphicon').click( function(){
+
+                var attr = this.getAttribute('data-id');
+                __self.removeItemsCart(attr);
+            });
 
             return newItem;
         };
@@ -85,6 +94,13 @@
             this.viewCart();
         };
 
+        this.removeItemsCart = function(attr) {
+
+            ls.removeItems( attr, 'cart');
+            this.viewCart();
+
+        };
+
         this.makeOrder = function () {
 
             __self.clearCart();
@@ -98,12 +114,24 @@
 })(window, jQuery);
 
 
-$('.bigcart').click(function() {
+$('.bigcart-a').click(function() {
     var item = {
         id: 'a-12',
-        name: 'Носки',
-        price: '23.5',
-        qty: '3',
+        name: 'item1',
+        price: '30',
+        qty: 1,
+        url: '#1'
+    };
+
+    cart.addToCart(item);
+});
+
+$('.bigcart-b').click(function() {
+    var item = {
+        id: 'b-12',
+        name: 'item2',
+        price: '50',
+        qty: 1,
         url: '#1'
     };
 

@@ -146,6 +146,12 @@ a:hover {
     width: 155px;
     height: 120px;
     margin: 0 0 40px 60px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 80px;
+    padding-left: 50px;
+    color: #fff;
+    text-align: left;
 
     background: url(../images/sprite.png);
     background-repeat: no-repeat;
@@ -317,19 +323,21 @@ a:hover {
     font-size: 24px;
 
     width: 24px;
-    padding: 0;
+
+    color: #4ea6bc;
+
+    top: -30px;
+    left: -5px;
 }
 
 .glyphicon-pencil {
-    margin: 7px 12px 7px 10px;
 
     color: #858e97;
 }
 
-.glyphicon-remove {
-    margin-right: 10px;
-
+.glyphicon:hover {
     color: #f06953;
+
 }
 
 /*-----------------------------------

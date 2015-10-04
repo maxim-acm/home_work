@@ -13,9 +13,47 @@
         // add some item to array in ls
         this.append = function (item, field) {
             var updatedList = this.getField(field);
-            updatedList.push(item);
+            var listItem = false;
+
+            if (updatedList.length == 0) {
+
+                updatedList.push(item);
+
+            } else {
+
+                for (var i = 0; i < updatedList.length; i++) {
+
+                    if (updatedList[i].id == item.id) {
+
+                        updatedList[i].qty += 1;
+                        listItem = true;
+                    }
+                }
+
+                if (listItem == false) {
+
+                    updatedList.push(item);
+
+                }
+            }
 
             ls[field] = JSON.stringify(updatedList);
+
+        };
+
+        this.removeItems = function(attr, field) {
+            var updatedList = this.getField(field);
+
+            for (var i = 0; i < updatedList.length; i++) {
+
+                if (updatedList[i].id == attr) {
+
+                    updatedList.splice(i,1);
+                }
+            }
+
+            ls[field] = JSON.stringify(updatedList);
+
         };
 
         this.getField = function (field) {
