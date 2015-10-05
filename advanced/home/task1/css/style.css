@@ -604,6 +604,12 @@ nav #nav > li ul a:hover {
   margin: 0 5px;
 }
 
+.nav-active {
+  display: none;
+  !important;
+
+}
+
 #posts-list .page-navigation .nav-page a {
   width: 40px;
   line-height: 32px;

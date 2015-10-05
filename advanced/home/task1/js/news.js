@@ -7,15 +7,30 @@
     var pager = 1;
     var itemsLength = 4;
     var articlesElems;
+    var itemsQty;
     var rssFeed = 'habr';
 
+    $('.nav-previous').click(function(){
+        if (pager > 0 && pager < itemsQty) {
+            pager++;
+            getFeed();
+        }
+    });
+
+    $('.nav-next').click(function(){
+        if (!(pager == 1)) {
+            pager--;
+            getFeed();
+        }
+    });
+
     function getFeed() {
+
         var hash = window.location.hash;
 
         if (hash.length > 0) {
 
             rssFeed = hash.substring(1);
-
         }
 
         $.ajax({
@@ -38,7 +53,6 @@
         if (hash.length > 0) {
 
             rssFeed = hash.substring(1);
-
         }
 
         pager = 1;
@@ -49,20 +63,16 @@
     function onSuccess (data) {
 
         rebuildPages();
+
         var items = data.items;
-
-
         articlesElems = [];
-
-
-        var itemsQty = Math.ceil(items.length/itemsLength);
-
+        itemsQty = Math.ceil(items.length/itemsLength);
 
         generatePages(itemsQty);
 
         items.forEach(function (article) {
 
-                articlesElems.push(createArticle(article));
+            articlesElems.push(createArticle(article));
 
         });
 
@@ -71,34 +81,42 @@
 
     function refreshRss () {
         articlesDom.html(articlesElems.splice((pager-1)*itemsLength,itemsLength));
-    };
-
+    }
 
     function generatePages(length) {
 
         for (var i = 0; i < length; i++) {
 
             $('.nav-page-tmpl').find('a').html(i+1);
-            createPage();
 
+            createPage();
         }
 
+        $('.created-page').click(function(){
+
+            pager = $(this).find('a').html();
+
+            getFeed();
+        })
     }
 
     function createPage() {
 
-        $('.nav-previous').before($('.nav-page-tmpl').clone().removeClass('nav-page-tmpl').addClass('created-page').click(function(){
-
-            pager = $(this).find('a').html();
-
-            console.log(pager);
-
-            getFeed();
-        }));
+        $('.nav-previous').before($('.nav-page-tmpl').clone().removeClass('nav-page-tmpl').addClass('created-page'));
     }
 
     function rebuildPages() {
         $('.created-page').remove();
+        $('.nav-next').removeClass('nav-active');
+        $('.nav-previous').removeClass('nav-active');
+
+        if (pager == 1) {
+            $('.nav-next').addClass('nav-active');
+        } else if (pager == itemsQty) {
+
+            $('.nav-previous').addClass('nav-active');
+        }
+
     }
 
     function createArticle(article) {
