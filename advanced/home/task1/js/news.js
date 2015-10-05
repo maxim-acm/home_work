@@ -4,9 +4,13 @@
     var tmplDom = $('.article_tmpl');
     var articlesDom = $('.articles');
 
+    var pager = 1;
+    var itemsLength = 4;
+    var articlesElems;
+    var rssFeed = 'habr';
+
     function getFeed() {
-        var hash = window.location.hash,
-            rssFeed = 'habr';
+        var hash = window.location.hash;
 
         if (hash.length > 0) {
 
@@ -28,6 +32,16 @@
 
     $(window).on('hashchange', function (e) {
         getFeed();
+
+        var hash = window.location.hash;
+
+        if (hash.length > 0) {
+
+            rssFeed = hash.substring(1);
+
+        }
+
+        pager = 1;
     });
 
     getFeed();
@@ -36,38 +50,51 @@
 
         rebuildPages();
         var items = data.items;
-        console.log(data);
 
-        var articlesElems = [];
 
-        var itemsLength = 5;
+        articlesElems = [];
+
+
         var itemsQty = Math.ceil(items.length/itemsLength);
-        console.log(itemsQty);
+
 
         generatePages(itemsQty);
+
         items.forEach(function (article) {
-            if (articlesElems.length < itemsLength) {
+
                 articlesElems.push(createArticle(article));
-            }
+
         });
 
-        articlesDom.html(articlesElems);
+        refreshRss();
     }
+
+    function refreshRss () {
+        articlesDom.html(articlesElems.splice((pager-1)*itemsLength,itemsLength));
+    };
+
 
     function generatePages(length) {
 
-
-        for (var i = 0; i <= length; i++) {
+        for (var i = 0; i < length; i++) {
 
             $('.nav-page-tmpl').find('a').html(i+1);
             createPage();
+
         }
 
     }
 
     function createPage() {
 
-        $('.nav-previous').before($('.nav-page-tmpl').clone().removeClass('nav-page-tmpl').addClass('created-page'));
+        $('.nav-previous').before($('.nav-page-tmpl').clone().removeClass('nav-page-tmpl').addClass('created-page').click(function(){
+
+            pager = $(this).find('a').html();
+
+            console.log(pager);
+
+            getFeed();
+        }));
     }
 
     function rebuildPages() {
